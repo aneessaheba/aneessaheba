@@ -1,6 +1,3 @@
-Here’s your updated GitHub profile README with your **Medium** link, **Tableau Public** link, and a new **Tableau Project** section added under "Portfolio Projects":
-
----
 
 ```markdown
 <h1 align="center">Hi, I'm Anees</h1>
