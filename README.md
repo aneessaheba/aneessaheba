@@ -38,7 +38,7 @@
 
 I am currently pursuing a **Master’s in Applied Data Intelligence** at **San José State University** (2025–2027).  
 Based in San Jose, California | Originally from Bangalore, India  
-Former **Data Analyst at Hewlett Packard** with hands-on experience in Python, SQL, and Power BI  
+Former **Data Analyst at HP Inc.** with hands-on experience in Python, SQL, and Power BI  
 I enjoy solving real-world problems with data, automation, and machine learning.
 
 ---
