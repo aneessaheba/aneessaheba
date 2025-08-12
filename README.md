@@ -1,3 +1,8 @@
+Here’s your updated GitHub profile README with your **Medium** link, **Tableau Public** link, and a new **Tableau Project** section added under "Portfolio Projects":
+
+---
+
+```markdown
 <h1 align="center">Hi, I'm Anees</h1>
 <h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
 
@@ -24,16 +29,22 @@
   <a href="https://leetcode.com/u/aneessaheba04/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
+  <a href="https://medium.com/@aneessaheba.guddi" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes" target="_blank">
+    <img src="https://img.shields.io/badge/Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Public" />
+  </a>
 </p>
 
 ---
 
 ##  About Me
 
- I am currently pursuing a **Master’s in Applied Data Intelligence** at **San José State University** (2025–2027).  
- Based in San Jose, California | Originally from Bangalore, India  
- Former **Data Analyst at Hewlett Packard** with hands-on experience in Python, SQL, and Power BI  
- I enjoy solving real-world problems with data, automation, and machine learning.
+I am currently pursuing a **Master’s in Applied Data Intelligence** at **San José State University** (2025–2027).  
+Based in San Jose, California | Originally from Bangalore, India  
+Former **Data Analyst at Hewlett Packard** with hands-on experience in Python, SQL, and Power BI  
+I enjoy solving real-world problems with data, automation, and machine learning.
 
 ---
 
@@ -67,13 +78,13 @@
 ##  Expertise
 
 ###  AI & Machine Learning  
- Large Language Models (LLM) • Langchain • Retrieval Augmented Generation (RAG) • Deep Learning • Natural Language Processing • Computer Vision • Machine Learning  
+Large Language Models (LLM) • Langchain • Retrieval Augmented Generation (RAG) • Deep Learning • Natural Language Processing • Computer Vision • Machine Learning  
 
 ###  Data Engineering  
- Data Pipelines • Data Visualization • DBMS Systems • SQL & NoSQL  
+Data Pipelines • Data Visualization • DBMS Systems • SQL & NoSQL  
 
 ###  Mathematical Techniques  
- Mathematical Modeling & Optimization • Statistical Analysis & Probability • Predictive Modeling
+Mathematical Modeling & Optimization • Statistical Analysis & Probability • Predictive Modeling
 
 ---
 
@@ -150,6 +161,9 @@
 - PCA + LOF + Random Forest
 - Anomaly detection and fraud prevention
 
+###  [Tableau Visualizations](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)
+- Created interactive dashboards for data storytelling  
+- Visualized trends, patterns, and KPIs for better decision-making  
 
 ---
 
@@ -174,6 +188,12 @@
   <a href="https://leetcode.com/u/aneessaheba04/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
+  <a href="https://medium.com/@aneessaheba.guddi" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes" target="_blank">
+    <img src="https://img.shields.io/badge/Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Public" />
+  </a>
 </p>
 
 <p align="center">📍 San Jose, California</p> 
@@ -181,3 +201,8 @@
 ---
 
 > _“Code with purpose, analyze with curiosity.”_
+```
+
+---
+
+If you want, I can also **add a Tableau icon** next to your "Skills" section so it visually matches your new links in the top bar. That will make it even more eye-catching.
