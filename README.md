@@ -1,5 +1,3 @@
-
-```markdown
 <h1 align="center">Hi, I'm Anees</h1>
 <h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
 
@@ -198,8 +196,3 @@ Mathematical Modeling & Optimization • Statistical Analysis & Probability • 
 ---
 
 > _“Code with purpose, analyze with curiosity.”_
-```
-
----
-
-If you want, I can also **add a Tableau icon** next to your "Skills" section so it visually matches your new links in the top bar. That will make it even more eye-catching.
