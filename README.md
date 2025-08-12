@@ -1,9 +1,7 @@
 <h1 align="center">Hi, I'm Anees</h1>
 <h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aneessaheba&label=Profile%20views&color=0e75b6&style=flat" alt="aneessaheba" />
-</p>
+
 
 <p align="center">
   <a href="mailto:aneessaheba.guddi@sjsu.edu" target="_blank">
