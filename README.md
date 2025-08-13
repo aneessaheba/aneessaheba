@@ -139,7 +139,7 @@ Mathematical Modeling & Optimization • Statistical Analysis & Probability • 
 - CNN model for detecting dynamic movie events (rain, wind, etc.)
 - Built with TensorFlow on time-series audio/video signals
 
-###  Spotify Data Analysis
+###  [Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)
 - EDA using Pandas, Seaborn, and NLP for lyrical sentiment
 - Streaming trend insights from audio features and text
 
