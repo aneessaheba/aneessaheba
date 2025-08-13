@@ -1,5 +1,3 @@
-
-
 <h1 align="center">Hi, I'm Anees</h1>
 <h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
 
