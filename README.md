@@ -30,6 +30,38 @@
 
 ---
 
+## 📜 About Me
+I am currently pursuing a **Master’s in Applied Data Intelligence** at **San José State University** (2025–2027).  
+Based in San Jose, California | Originally from Bangalore, India  
+Former **Data Analyst at HP Inc.** with hands-on experience in Python, SQL, and Power BI  
+I enjoy solving real-world problems with data, automation, and machine learning.
+
+---
+
+## 🎓 Education
+
+- **San José State University (SJSU)**  
+  _Master’s in Applied Data Intelligence_  
+  *Jan 2025 – Dec 2027*  
+  **Coursework includes:**  
+  - Database Technologies for Data Analytics  
+  - Mathematics for Applied Data Science  
+  - Computational Programming for Data Analytics  
+  - Advanced Mathematical Methods for Data Intelligence  
+  - Big Data Technologies and Applications for Data Intelligence  
+  - Data Intelligence and Visualization  
+  - Machine Learning Technologies  
+  - Deep Learning Technologies   
+  - Data Warehousing and Pipeline Development  
+  - Distributed Systems for Data Engineering  
+  - Generative Models Applications  
+
+- **Visvesvaraya Technological University (VTU)**  
+  _B.E. in Information Science and Engineering_  
+  *Aug 2019 – Jun 2023*
+
+---
+
 ## 🛠 Skills
 
 ### **Languages & Frameworks**
@@ -106,5 +138,37 @@
 
 ---
 
+## 📍 Contact Me
+
+<p align="center">
+  <a href="mailto:aneessaheba.guddi@sjsu.edu" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://aneessaheba.github.io/AneesPortfolio.github.io/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://github.com/aneessaheba" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.youtube.com/@BytAByte" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" />
+  </a>
+  <a href="https://leetcode.com/u/aneessaheba04/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  </a>
+  <a href="https://medium.com/@aneessaheba.guddi" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes" target="_blank">
+    <img src="https://img.shields.io/badge/Tableau%20Public-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau Public" />
+  </a>
+</p>
+
 <p align="center">📍 San Jose, California</p> 
+
+---
+
 > _“Code with purpose, analyze with curiosity.”_
