@@ -122,7 +122,9 @@ I enjoy solving real-world problems with data, automation, and machine learning.
 - **[Stock Market ETL and Data Warehousing](https://github.com/aneessaheba/StockMarketETL)**  
   Kafka + Airflow pipeline for real-time stock data, sentiment analysis on financial news, and OLAP analytics using a star schema in TimescaleDB.  
 - **[Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)**  
-  EDA with Pandas, Seaborn, and NLP for lyrical sentiment; insights on streaming trends from audio features and text.
+  -Built an ETL pipeline with Spotify API, AWS Glue, and Snowflake.
+  -Created interactive Power BI dashboards for music trends and listener behavior.
+  -Delivered insights on peak hours, weekend listening, and top artists/tracks.
 
 ### **AI & Machine Learning**
 - **4DX Movie Technology Using ML**  
