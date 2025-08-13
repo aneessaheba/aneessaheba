@@ -69,4 +69,42 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle)
 
-### **Development & Collaboratio**
+### **Development & Collaboration Tools**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github)
+![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=github)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter)
+![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=anaconda)
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat&logo=openai)
+
+---
+
+## 📂 Portfolio Projects
+
+### **Data Engineering & Pipelines**
+- **[Stock Market ETL and Data Warehousing](https://github.com/aneessaheba/StockMarketETL)**  
+  Kafka + Airflow pipeline for real-time stock data, sentiment analysis on financial news, and OLAP analytics using a star schema in TimescaleDB.  
+- **[Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)**  
+  EDA with Pandas, Seaborn, and NLP for lyrical sentiment; insights on streaming trends from audio features and text.
+
+### **AI & Machine Learning**
+- **4DX Movie Technology Using ML**  
+  CNN model to detect dynamic movie events (rain, wind, etc.) using time-series audio/video signals. Built with TensorFlow.  
+- **Face Mask Detection Using ML**  
+  Real-time webcam-based mask detection using MobileNetV2 for edge deployment.  
+- **Credit Card Fraud Detection**  
+  PCA + LOF + Random Forest for anomaly detection and fraud prevention.  
+
+### **Data Analysis & Visualization**
+- **[Tableau Visualizations](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)**  
+  Interactive dashboards for storytelling, trend analysis, and KPI visualization.  
+
+---
+
+<p align="center">📍 San Jose, California</p> 
+> _“Code with purpose, analyze with curiosity.”_
