@@ -1,5 +1,18 @@
-<h1 align="center">Hi, I'm Anees</h1>
-<h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
+<div align="center" style="position: relative; display: inline-block; text-align: center;">
+
+  <!-- Background Image -->
+  <img src="https://github.com/user-attachments/assets/3b675dc2-913a-4891-a2f5-9afdc892a6fe" 
+       alt="Banner" width="100%" height="auto">
+
+  <!-- Centered Text -->
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+              color: white; font-size: 32px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+    <h1 style="margin: 0;">Hi, I'm Anees</h1>
+    <h3 style="margin: 0;">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
+  </div>
+
+</div>
+
 
 <p align="center">
   <a href="mailto:aneessaheba.guddi@sjsu.edu" target="_blank">
