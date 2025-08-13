@@ -1,4 +1,7 @@
-<img width="1024" height="256" alt="anees_image_with_big_text" src="https://github.com/user-attachments/assets/c237bd10-62f8-4941-a2c3-2b404c539b0d" />
+
+
+<h1 align="center">Hi, I'm Anees</h1>
+<h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
 
 
 
