@@ -55,14 +55,11 @@ I enjoy solving real-world problems with data, automation, and machine learning.
   - Data Intelligence and Visualization  
   - Machine Learning Technologies  
   - Deep Learning Technologies   
-  - Database Systems and Management  
-  - Data Mining Techniques and Applications  
-  - Large Language Models Applications  
   - Data Warehousing and Pipeline Development  
   - Distributed Systems for Data Engineering  
   - Generative Models Applications  
 
-- **AMC Engineering College (VTU)**  
+- **Visvesvaraya Technological University (VTU)**  
   _B.E. in Information Science and Engineering_  
   *Aug 2019 – Jun 2023*
 
