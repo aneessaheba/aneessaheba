@@ -8,7 +8,7 @@
   <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://aneessaheba.github.io/AneesPortfolio.github.io/" target="_blank">
+  <a href="https://aneessaheba.github.io/Portfolio.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/aneessaheba" target="_blank">
@@ -149,7 +149,7 @@ I enjoy solving real-world problems with data, automation, and machine learning.
   <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://aneessaheba.github.io/AneesPortfolio.github.io/" target="_blank">
+  <a href="https://aneessaheba.github.io/Portfolio.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/aneessaheba" target="_blank">
