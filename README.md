@@ -38,7 +38,7 @@ I enjoy solving real-world problems with data, automation, and machine learning.
 
 ---
 
-## 🎓 Education
+##  Education
 
 - **San José State University (SJSU)**  
   _Master’s in Applied Data Intelligence_  
