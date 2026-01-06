@@ -1,7 +1,5 @@
 <h1 align="center">Hi, I'm Anees</h1>
-<h3 align="center">Data-Driven Innovator | Problem-Solver | AI Enthusiast</h3>
-
-
+<h3 align="center">Gen AI & ML | Data Science | Data Platforms | MS in Applied Data Intelligence @SJSU</h3>
 
 <p align="center">
   <a href="mailto:aneessaheba.guddi@sjsu.edu" target="_blank">
@@ -32,39 +30,58 @@
 
 ---
 
-##  About Me
-I am currently pursuing a **Master’s in Applied Data Intelligence** at **San José State University** (2025–2027).  
-Based in San Jose, California | Originally from Bangalore, India  
-Former **Data Analyst at HP Inc.** with hands-on experience in Python, SQL, and Power BI  
-I enjoy solving real-world problems with data, automation, and machine learning.
+## 👨‍💻 About Me
+
+MS in Applied Data Intelligence student at **San José State University** (2025–2027), specializing in **Generative AI**, **Agentic Workflows**, and **Distributed Systems**. I have a proven ability to prototype end-to-end agentic systems—from architecting multi-tool LLM agents to deploying scalable backend infrastructures and distributed microservices. I bridge the gap between robust software engineering and intelligent AI applications.
+
+With hands-on experience as a **Software Development Engineer at HP Inc.**, I leverage Python, SQL, and advanced analytics to solve complex real-world problems. My expertise spans **distributed systems architecture**, **data engineering pipelines**, **machine learning**, and building production-ready AI systems. I'm passionate about designing resilient, high-throughput systems and transforming raw data into actionable insights through intelligent automation solutions that drive business value.
+
+**Based in:** San Jose, California | **Originally from:** Bangalore, India
 
 ---
 
-##  Education
+## 💼 Work Experience
 
-- **San José State University (SJSU)**  
-  _Master’s in Applied Data Intelligence_  
-  *Jan 2025 – Dec 2027*  
-  **Coursework includes:**  
-  - Database Technologies for Data Analytics  
-  - Mathematics for Applied Data Science  
-  - Computational Programming for Data Analytics  
-  - Advanced Mathematical Methods for Data Intelligence  
-  - Big Data Technologies and Applications for Data Intelligence  
-  - Data Intelligence and Visualization  
-  - Machine Learning Technologies  
-  - Deep Learning Technologies   
-  - Data Warehousing and Pipeline Development  
-  - Distributed Systems for Data Engineering  
-  - Generative Models Applications  
+**Hewlett Packard (HP)** | Bengaluru, India  
+_Software Development Engineer_  
+*Jul 2023 – Aug 2024*
 
-- **Visvesvaraya Technological University (VTU)**  
-  _B.E. in Information Science and Engineering_  
-  *Aug 2019 – Jun 2023*
+- Implemented rule-based chatbots for Printer Customer Support to guide users through common troubleshooting workflows
+- Prepared and organized data from customer support transcripts and internal troubleshooting documents for AI integration
+- Performed text cleaning and keyword extraction to map user queries to predefined intents using NLP techniques
+- Built decision-based conversation flows using conditional logic, fallback responses, and backend API integrations
+- Integrated chatbot logic with backend support APIs to fetch device status and deliver recommended actions
+- Explored early LLM tools to assess potential improvements in response quality and coverage for customer support automation
+
+**Pheuna Technology** | Bengaluru, India  
+_Software Engineer Intern_  
+*May 2022 – Aug 2022*
+
+- Designed RESTful APIs using Node.js and Express with Sequelize ORM for real-time event-driven systems
+- Implemented Kafka producers and consumers for distributed message processing and streaming data pipelines
+- Built a cross-platform mobile dashboard using React and Ionic for real-time system monitoring and analytics
 
 ---
 
-##  Skills
+## 🎓 Education
+
+**San José State University (SJSU)** | San Jose, CA  
+_Master of Science in Applied Data Intelligence_  
+*Jan 2025 – May 2027* | GPA: 3.5/4.0
+
+**Relevant Coursework:**  
+Gen AI LLMs, Agentic AI, Machine Learning, Deep Learning, Big Data Algorithms, Distributed Systems, Scalable Data Platforms, Data Warehousing and Pipeline Development
+
+**Visvesvaraya Technological University (VTU)** | Karnataka, India  
+_Bachelor of Engineering in Information Science and Engineering_  
+*Aug 2019 – Jun 2023* | GPA: 7.9/10.0
+
+**Relevant Coursework:**  
+Data Structures and Algorithms, Database Systems, Software Engineering
+
+---
+
+## 🛠 Skills
 
 ### **Languages & Frameworks**
 ![Python](https://img.shields.io/badge/Python-blue?style=flat&logo=python)
@@ -118,31 +135,43 @@ I enjoy solving real-world problems with data, automation, and machine learning.
 
 ---
 
-##  Portfolio Projects
+## 🚀 Portfolio Projects
+
+### **Generative AI & Agentic Systems**
+- **[Airbnb Prototype with Agentic AI](https://github.com/aneessaheba/airbnb-agentic-ai)** | LangChain, FastAPI, React, MySQL  
+  Built a full-stack Airbnb-style platform with an AI Concierge powered by LangChain that generates personalized travel plans and recommendations. Integrated LLM-driven workflows with backend APIs for context-aware, goal-oriented user interactions.
+
+- **[Multi-Agent Blog System](https://github.com/aneessaheba/multi-agent-blog)** | Ollama, Docker, AWS ECS  
+  Developed a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs for tag generation, summaries, and publishable content packages.
+
+### **Distributed Systems**
+- **[Distributed Kayak Travel Booking System](https://github.com/aneessaheba/kayak-distributed-system)** | FastAPI, Kafka, MySQL, MongoDB, Redis  
+  Built a distributed travel booking system supporting search, booking, billing, and analytics for flights, hotels, and cars. Designed backend microservices with Kafka-based messaging and implemented an AI-powered recommendation service for personalized travel deals.
 
 ### **Data Engineering & Pipelines**
-- **[Stock Market ETL and Data Warehousing](https://github.com/aneessaheba/StockMarketETL)**  
-  Kafka + Airflow pipeline for real-time stock data, sentiment analysis on financial news, and OLAP analytics using a star schema in TimescaleDB.  
-- **[Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)**  
-  -Built an ETL pipeline with Spotify API, AWS Glue, and Snowflake.
-  -Created interactive Power BI dashboards for music trends and listener behavior.
-  -Delivered insights on peak hours, weekend listening, and top artists/tracks.
+- **[Stock Market ETL and Data Warehousing](https://github.com/aneessaheba/StockMarketETL)** | PostgreSQL, Docker, ETL  
+  Built an ETL pipeline for stock market data with automated ingestion from multiple sources. Designed a dimensional data warehouse in PostgreSQL for financial analysis and developed analytics dashboards for stock trends and KPIs.
 
-### **AI & Machine Learning**
-- **4DX Movie Technology Using ML**  
-  CNN model to detect dynamic movie events (rain, wind, etc.) using time-series audio/video signals. Built with TensorFlow.  
-- **Face Mask Detection Using ML**  
-  Real-time webcam-based mask detection using MobileNetV2 for edge deployment.  
-- **Credit Card Fraud Detection**  
-  PCA + LOF + Random Forest for anomaly detection and fraud prevention.  
+- **[Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)** | AWS Glue, Snowflake, Power BI  
+  Built an ETL pipeline with Spotify API, AWS Glue, and Snowflake. Created interactive Power BI dashboards delivering insights on peak hours, weekend listening patterns, and top artists/tracks.
 
-### **Data Analysis & Visualization**
-- **[Tableau Visualizations](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)**  
-  Interactive dashboards for storytelling, trend analysis, and KPI visualization.  
+### **Machine Learning & Computer Vision**
+- **4DX Movie Technology Using ML** | TensorFlow, CNN  
+  Developed a CNN model to detect dynamic movie events (rain, wind, etc.) using time-series audio/video signals for immersive 4DX theater experiences.
+
+- **Face Mask Detection Using ML** | MobileNetV2, OpenCV  
+  Built real-time webcam-based mask detection system using MobileNetV2 optimized for edge deployment with 95%+ accuracy.
+
+- **Credit Card Fraud Detection** | PCA, Random Forest, LOF  
+  Implemented anomaly detection pipeline using PCA dimensionality reduction, Isolation Forest, and Random Forest for fraud prevention with imbalanced dataset handling.
+
+### **Data Visualization**
+- **[Tableau Public Portfolio](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)**  
+  Interactive dashboards for business intelligence, trend analysis, and KPI visualization showcasing storytelling with data.  
 
 ---
 
-##  Contact Me
+## 📫 Contact Me
 
 <p align="center">
   <a href="mailto:aneessaheba.guddi@sjsu.edu" target="_blank">
@@ -175,4 +204,4 @@ I enjoy solving real-world problems with data, automation, and machine learning.
 
 ---
 
-> _“Code with purpose, analyze with curiosity.”_
+> _"Code with purpose, analyze with curiosity."_
