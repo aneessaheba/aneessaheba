@@ -148,7 +148,7 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 - **[Airbnb Prototype with Agentic AI](https://github.com/aneessaheba/airbnb-agentic-ai)** | LangChain, FastAPI, React, MySQL  
   Built a full-stack Airbnb-style platform with an AI Concierge powered by LangChain that generates personalized travel plans and recommendations. Integrated LLM-driven workflows with backend APIs for context-aware, goal-oriented user interactions.
 
-- **[Multi-Agent Blog System](https://github.com/aneessaheba/multi-agent-blog)** | Ollama, Docker, AWS ECS  
+- **[Multi-Agent Blog System](https://github.com/aneessaheba/ollama-agentic-ai)** | Ollama, Docker, AWS ECS  
   Developed a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs for tag generation, summaries, and publishable content packages.
 
 ### **Distributed Systems**
