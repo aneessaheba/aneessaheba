@@ -155,6 +155,16 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 - **[Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)** | AWS Glue, Snowflake, Power BI  
   Built an ETL pipeline with Spotify API, AWS Glue, and Snowflake. Created interactive Power BI dashboards delivering insights on peak hours, weekend listening patterns, and top artists/tracks.
 
+- **[Retail Orders Analytics Project](https://github.com/aneessaheba/Retail-Orders-Analytics-Project)** | Python, Pandas, SQL Server  
+  Built an end-to-end data pipeline using Python and Pandas to process retail orders dataset. Loaded cleaned data into SQL Server and performed advanced analytics to identify top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.
+
+### **Software Engineering & Data Structures**
+- **[CheckMyGrade-OOP-Python](https://github.com/aneessaheba/CheckMyGrade-OOP-Python)** | Python, OOP, CSV, Encryption  
+  Python console-based student grade management application using object-oriented programming principles and CSV data persistence. Supports CRUD operations, search, sort with timing analysis, data encryption, academic reports, and statistical analytics. Implements both array and linked list backends with role-based menus and comprehensive unit tests for performance validation.
+
+- **[Stock Analysis Application](https://github.com/aneessaheba/StockMarketAnalysis)** | Python, OOP, GUI, SQLite  
+  Object-oriented stock tracking application with both console and GUI interfaces built using Python. Features embedded database management for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization using Python libraries.
+
 ### **Machine Learning & Computer Vision**
 - **4DX Movie Technology Using ML** | TensorFlow, CNN  
   Developed a CNN model to detect dynamic movie events (rain, wind, etc.) using time-series audio/video signals for immersive 4DX theater experiences.
