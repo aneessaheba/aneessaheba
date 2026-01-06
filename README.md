@@ -148,6 +148,15 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 - **[Airbnb Prototype with Agentic AI](https://github.com/aneessaheba/airbnb-agentic-ai)** | LangChain, FastAPI, React, MySQL  
   Built a full-stack Airbnb-style platform with an AI Concierge powered by LangChain that generates personalized travel plans and recommendations. Integrated LLM-driven workflows with backend APIs for context-aware, goal-oriented user interactions.
 
+- **[AI Memory Chatbot Agent](https://github.com/aneessaheba/Chat-agentic-ai)** | FastAPI, MongoDB, Google Gemini, Motor  
+  Built an intelligent chatbot with multi-tiered memory architecture using FastAPI and MongoDB. Implements short-term conversational memory, session-based summaries, lifetime user context condensation, and episodic memory retrieval with vector embeddings. Features automatic memory consolidation, importance-weighted fact extraction, and context-aware responses using Google Generative AI.
+
+- **[Bike-Share Pass Optimizer](https://github.com/aneessaheba/auth-route-and-bike-share-analysis)** | ReAct, MRKL, DuckDB, Express  
+  Built a single-agent ReAct + MRKL workflow that analyzes Divvy bike-share trip data to recommend whether riders should purchase a membership or stay on pay-per-ride pricing. Implements custom tools (CSV SQL via DuckDB, policy retrieval with web scraping, calculator) with transparent Thought → Action → Observation traces and policy citations for decision justification.
+
+- **[Career Counseling Agent](https://github.com/aneessaheba/streamlit-career-agent-gemini)** | Streamlit, Gemini, LangChain  
+  Developed an AI-powered career planning assistant using Gemini LLM and custom tools. Features include Skills Gap Analyzer, Resume Scorer with improvement suggestions (0-10 scale), Salary Estimator, and Interview Question Generator for personalized career guidance.
+
 - **[Multi-Agent Blog System](https://github.com/aneessaheba/ollama-agentic-ai)** | Ollama, Docker, AWS ECS  
   Developed a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs for tag generation, summaries, and publishable content packages.
 
