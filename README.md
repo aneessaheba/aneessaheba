@@ -83,31 +83,39 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 
 ## 🛠 Skills
 
-### **Languages & Frameworks**
-![Python](https://img.shields.io/badge/Python-blue?style=flat&logo=python)
-![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat&logo=oracle)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat)
+### **Generative AI & LLMs**
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat&logo=openai)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat&logo=huggingface)
+
+### **Machine Learning & Deep Learning**
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn)
 
-### **Data Engineering & Databases**
+### **Programming Languages & Frameworks**
+![Python](https://img.shields.io/badge/Python-blue?style=flat&logo=python)
+![PL/SQL](https://img.shields.io/badge/PL%2FSQL-F80000?style=flat&logo=oracle)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5)
+![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=flat)
+
+### **Data Engineering & Big Data**
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka)
+![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat&logo=apachehadoop)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow)
+
+### **Databases & Cloud Platforms**
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql)
 ![Postgres](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle)
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=amazons3)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat&logo=apachespark)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apachekafka)
-![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=flat&logo=apachehadoop)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat&logo=apacheairflow)
-![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazonec2)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=flat&logo=amazons3)
+![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazonec2)
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-4285F4?style=flat&logo=googlecloud)
 
 ### **Data Analysis & Visualization**
@@ -120,7 +128,7 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle)
 
-### **Development & Collaboration Tools**
+### **Development Tools & Collaboration**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat&logo=github)
 ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=github)
@@ -128,10 +136,9 @@ Data Structures and Algorithms, Database Systems, Software Engineering
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter)
 ![Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=anaconda)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
 ![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
-![ChatGPT](https://img.shields.io/badge/ChatGPT-10A37F?style=flat&logo=openai)
 
 ---
 
