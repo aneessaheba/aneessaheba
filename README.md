@@ -29,19 +29,13 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aneessaheba&label=Profile%20views&color=blueviolet&style=flat-square" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/aneessaheba?label=Followers&style=flat-square&color=blueviolet" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/aneessaheba?label=Stars&style=flat-square&color=blueviolet" alt="GitHub stars" />
-</p>
-
 ---
 
 ## About Me
 
-MS in Applied Data Intelligence student at **San José State University** (2025–2027) with expertise in **Generative AI**, **LLM-based Agentic Systems**, and **Distributed Architectures**. I specialize in building intelligent automation systems that bridge advanced AI capabilities with production-grade software engineering.
+MS in Applied Data Intelligence student at **San José State University** (2025–2027) specializing in **Generative AI**, **LLM Fine-tuning**, and **Machine Learning Model Development**. I architect intelligent systems that combine cutting-edge AI capabilities with production-grade software engineering—from fine-tuning large language models and training deep learning networks to building agentic workflows and distributed architectures.
 
-My work focuses on architecting end-to-end agentic workflows using LangChain and LangGraph, designing scalable distributed microservices, and engineering robust data pipelines. With professional experience as a Software Development Engineer at HP Inc., I bring a unique combination of AI/ML expertise and systems engineering skills to solve complex real-world problems.
+My expertise spans the full machine learning lifecycle: designing and training neural networks from scratch, fine-tuning foundation models for domain-specific tasks, architecting LLM-based agentic systems with LangChain and LangGraph, and deploying scalable microservices. With professional experience as a Software Development Engineer at HP Inc., I bring hands-on knowledge in building production AI systems, distributed data pipelines, and intelligent automation solutions.
 
 **Background**
 - Former Software Development Engineer at HP Inc. (Jul 2023 – Aug 2024)
@@ -113,9 +107,7 @@ Built an ETL pipeline for stock market data using Python, integrating multiple s
 
 ## Technical Skills
 
-<details open>
-<summary><b>Generative AI & LLMs</b></summary>
-<br>
+### Generative AI & LLMs
 
 ![Gen AI APIs](https://img.shields.io/badge/Gen_AI_APIs-4A90E2?style=flat)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-00C853?style=flat)
@@ -127,33 +119,34 @@ Built an ETL pipeline for stock market data using Python, integrating multiple s
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=google)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat&logo=huggingface&logoColor=black)
+![Fine-tuning](https://img.shields.io/badge/Fine--tuning-FF5722?style=flat)
+![LoRA](https://img.shields.io/badge/LoRA-9C27B0?style=flat)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat)
 
-</details>
+### Machine Learning & Deep Learning
 
-<details>
-<summary><b>Machine Learning & Deep Learning</b></summary>
-<br>
-
+![Model Training](https://img.shields.io/badge/Model_Training-E91E63?style=flat)
 ![Supervised Learning](https://img.shields.io/badge/Supervised_Learning-0088CC?style=flat)
 ![Unsupervised Learning](https://img.shields.io/badge/Unsupervised_Learning-6A1B9A?style=flat)
 ![Neural Networks](https://img.shields.io/badge/Neural_Networks-0088CC?style=flat)
+![CNN](https://img.shields.io/badge/CNN-00BCD4?style=flat)
+![RNN](https://img.shields.io/badge/RNN-009688?style=flat)
+![Transfer Learning](https://img.shields.io/badge/Transfer_Learning-673AB7?style=flat)
 ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-6A1B9A?style=flat)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
 
-</details>
-
-<details>
-<summary><b>Programming & Frameworks</b></summary>
-<br>
+### Programming & Frameworks
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -161,17 +154,14 @@ Built an ETL pipeline for stock market data using Python, integrating multiple s
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-</details>
-
-<details>
-<summary><b>Data & Cloud Systems</b></summary>
-<br>
+### Data & Cloud Systems
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![AWS SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat&logo=amazonaws&logoColor=white)
@@ -180,67 +170,37 @@ Built an ETL pipeline for stock market data using Python, integrating multiple s
 ![AWS ECS](https://img.shields.io/badge/ECS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
 
-</details>
-
-<details>
-<summary><b>Data Engineering & Big Data</b></summary>
-<br>
+### Data Engineering & Big Data
 
 ![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![Apache Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=flat&logo=apachehadoop&logoColor=black)
 ![ETL](https://img.shields.io/badge/ETL-00897B?style=flat)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/AWS_Glue-FF9900?style=flat&logo=amazonaws&logoColor=white)
 
-</details>
+### Data Analysis & Visualization
 
-<details>
-<summary><b>Tools & Development</b></summary>
-<br>
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+
+### Tools & Development
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
-
-</details>
-
----
-
-## GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&theme=radical&hide_border=true&langs_count=10" alt="Top Languages" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneessaheba&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=aneessaheba&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aneessaheba&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
-</p>
-
-## LeetCode Statistics
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats" />
-</p>
 
 ---
 
 ## Additional Projects
-
-<details>
-<summary><b>View All Projects</b></summary>
 
 ### Generative AI & Agentic Systems
 
@@ -292,19 +252,19 @@ Object-oriented stock tracking application with both console and GUI interfaces 
 ### Machine Learning & Computer Vision
 
 #### 4DX Movie Technology Using ML
-**Tech Stack:** TensorFlow | CNN
+**Tech Stack:** TensorFlow | CNN | Python | OpenCV | Audio Processing
 
-Developed a CNN model to detect dynamic movie events (rain, wind, etc.) using time-series audio/video signals for immersive 4DX theater experiences.
+Developed an intelligent CNN-based system for immersive 4DX theater experiences. The model processes synchronized audio-visual data streams to detect dynamic movie events in real-time, including environmental effects like rain, wind, fog, and motion sequences. Implemented time-series signal processing for audio analysis and frame-by-frame visual event detection. The system triggers corresponding physical theater effects (water sprays, wind fans, seat motion) with millisecond-level precision to create synchronized immersive experiences. Trained on a custom-labeled dataset of movie scenes with corresponding environmental metadata.
 
 #### Face Mask Detection Using ML
-**Tech Stack:** MobileNetV2 | OpenCV
+**Tech Stack:** MobileNetV2 | OpenCV | TensorFlow | Python | Real-time Video Processing
 
-Built real-time webcam-based mask detection system using MobileNetV2 optimized for edge deployment with 95%+ accuracy.
+Built a production-ready real-time face mask detection system optimized for edge deployment on resource-constrained devices. Leveraged transfer learning with MobileNetV2 architecture for efficient inference, achieving 95%+ accuracy while maintaining 30+ FPS on standard webcams. Implemented real-time video stream processing with OpenCV for face detection and mask classification. The system includes bounding box visualization, confidence score display, and multi-face detection in crowded scenarios. Designed for deployment in public spaces, offices, and retail environments with minimal computational overhead.
 
 #### Credit Card Fraud Detection
-**Tech Stack:** PCA | Random Forest | Isolation Forest
+**Tech Stack:** PCA | Random Forest | Isolation Forest | Python | scikit-learn | Imbalanced-learn
 
-Implemented anomaly detection pipeline using PCA dimensionality reduction, Isolation Forest, and Random Forest for fraud prevention with imbalanced dataset handling.
+Implemented a comprehensive anomaly detection pipeline for identifying fraudulent credit card transactions in highly imbalanced datasets (fraud rate <0.2%). Applied Principal Component Analysis (PCA) for dimensionality reduction to handle high-dimensional transaction features while preserving critical variance. Developed an ensemble approach combining Isolation Forest for unsupervised anomaly detection and Random Forest for supervised classification. Addressed class imbalance using SMOTE oversampling and precision-recall optimization. The system achieves high recall (minimizing false negatives) while maintaining acceptable precision, crucial for real-world fraud prevention where missing fraud is costlier than false alarms.
 
 ---
 
@@ -313,8 +273,6 @@ Implemented anomaly detection pipeline using PCA dimensionality reduction, Isola
 #### [Tableau Public Portfolio](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)
 
 Interactive dashboards for business intelligence, trend analysis, and KPI visualization showcasing storytelling with data.
-
-</details>
 
 ---
 
@@ -329,6 +287,33 @@ Interactive dashboards for business intelligence, trend analysis, and KPI visual
 *Bachelor of Engineering in Information Science and Engineering* | Aug 2019 – Jun 2023 | GPA: 7.9/10.0
 
 **Relevant Coursework:** Data Structures and Algorithms, Database Systems, Software Engineering
+
+---
+
+## GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&theme=radical&hide_border=true&langs_count=10" alt="Top Languages" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aneessaheba&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aneessaheba&theme=radical&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aneessaheba&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
+
+## LeetCode Statistics
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=dark&font=Ubuntu&ext=heatmap" alt="LeetCode Stats" />
+</p>
 
 ---
 
@@ -359,14 +344,4 @@ Interactive dashboards for business intelligence, trend analysis, and KPI visual
   <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes">
     <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" />
   </a>
-</p>
-
----
-
-<p align="center">
-  <i>"Code with purpose, analyze with curiosity, build with intelligence."</i>
-</p>
-
-<p align="center">
-  Made with passion by Anees Saheba Guddi
 </p>
