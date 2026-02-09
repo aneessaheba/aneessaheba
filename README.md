@@ -9,7 +9,7 @@
   <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://aneessaheba.github.io/Portfolio.github.io/generic.html">
+  <a href="https://aneessaheba.github.io">
     <img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/aneessaheba">
@@ -254,17 +254,17 @@ Object-oriented stock tracking application with both console and GUI interfaces 
 #### 4DX Movie Technology Using ML
 **Tech Stack:** TensorFlow | CNN | Python | OpenCV | Audio Processing
 
-Developed an intelligent CNN-based system for immersive 4DX theater experiences. The model processes synchronized audio-visual data streams to detect dynamic movie events in real-time, including environmental effects like rain, wind, fog, and motion sequences. Implemented time-series signal processing for audio analysis and frame-by-frame visual event detection. The system triggers corresponding physical theater effects (water sprays, wind fans, seat motion) with millisecond-level precision to create synchronized immersive experiences. Trained on a custom-labeled dataset of movie scenes with corresponding environmental metadata.
+Developed a CNN-based system for immersive 4DX theater experiences that processes synchronized audio-visual streams to detect dynamic movie events in real-time. Implemented time-series audio analysis and frame-by-frame visual detection to trigger corresponding physical theater effects (water, wind, seat motion) with millisecond-level precision.
 
 #### Face Mask Detection Using ML
 **Tech Stack:** MobileNetV2 | OpenCV | TensorFlow | Python | Real-time Video Processing
 
-Built a production-ready real-time face mask detection system optimized for edge deployment on resource-constrained devices. Leveraged transfer learning with MobileNetV2 architecture for efficient inference, achieving 95%+ accuracy while maintaining 30+ FPS on standard webcams. Implemented real-time video stream processing with OpenCV for face detection and mask classification. The system includes bounding box visualization, confidence score display, and multi-face detection in crowded scenarios. Designed for deployment in public spaces, offices, and retail environments with minimal computational overhead.
+Built a real-time face mask detection system using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. Implemented real-time video processing with OpenCV for face detection and mask classification, featuring bounding box visualization and multi-face detection capabilities optimized for edge deployment.
 
 #### Credit Card Fraud Detection
 **Tech Stack:** PCA | Random Forest | Isolation Forest | Python | scikit-learn | Imbalanced-learn
 
-Implemented a comprehensive anomaly detection pipeline for identifying fraudulent credit card transactions in highly imbalanced datasets (fraud rate <0.2%). Applied Principal Component Analysis (PCA) for dimensionality reduction to handle high-dimensional transaction features while preserving critical variance. Developed an ensemble approach combining Isolation Forest for unsupervised anomaly detection and Random Forest for supervised classification. Addressed class imbalance using SMOTE oversampling and precision-recall optimization. The system achieves high recall (minimizing false negatives) while maintaining acceptable precision, crucial for real-world fraud prevention where missing fraud is costlier than false alarms.
+Implemented an anomaly detection pipeline for identifying fraudulent transactions in highly imbalanced datasets. Applied PCA for dimensionality reduction and developed an ensemble approach combining Isolation Forest and Random Forest. Addressed class imbalance using SMOTE oversampling with precision-recall optimization for real-world fraud prevention.
 
 ---
 
@@ -326,7 +326,7 @@ Interactive dashboards for business intelligence, trend analysis, and KPI visual
   <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://aneessaheba.github.io/Portfolio.github.io/generic.html">
+  <a href="https://aneessaheba.github.io">
     <img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/aneessaheba">
