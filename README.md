@@ -254,17 +254,17 @@ Object-oriented stock tracking application with both console and GUI interfaces 
 #### 4DX Movie Technology Using ML
 **Tech Stack:** TensorFlow | CNN | Python | OpenCV | Audio Processing
 
-Developed a CNN-based system for immersive 4DX theater experiences that processes synchronized audio-visual streams to detect dynamic movie events in real-time. Implemented time-series audio analysis and frame-by-frame visual detection to trigger corresponding physical theater effects (water, wind, seat motion) with millisecond-level precision.
+Developed a CNN-based system that processes synchronized audio-visual streams to detect dynamic movie events in real-time and trigger corresponding physical theater effects (water, wind, seat motion) with millisecond-level precision for immersive 4DX experiences.
 
 #### Face Mask Detection Using ML
-**Tech Stack:** MobileNetV2 | OpenCV | TensorFlow | Python | Real-time Video Processing
+**Tech Stack:** MobileNetV2 | OpenCV | TensorFlow | Python
 
-Built a real-time face mask detection system using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. Implemented real-time video processing with OpenCV for face detection and mask classification, featuring bounding box visualization and multi-face detection capabilities optimized for edge deployment.
+Built a real-time face mask detection system using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS with OpenCV-based face detection and multi-face classification capabilities optimized for edge deployment.
 
 #### Credit Card Fraud Detection
-**Tech Stack:** PCA | Random Forest | Isolation Forest | Python | scikit-learn | Imbalanced-learn
+**Tech Stack:** PCA | Random Forest | Isolation Forest | Python | scikit-learn
 
-Implemented an anomaly detection pipeline for identifying fraudulent transactions in highly imbalanced datasets. Applied PCA for dimensionality reduction and developed an ensemble approach combining Isolation Forest and Random Forest. Addressed class imbalance using SMOTE oversampling with precision-recall optimization for real-world fraud prevention.
+Implemented an anomaly detection pipeline for identifying fraudulent transactions in highly imbalanced datasets using PCA dimensionality reduction and ensemble methods (Isolation Forest + Random Forest) with SMOTE oversampling and precision-recall optimization.
 
 ---
 
