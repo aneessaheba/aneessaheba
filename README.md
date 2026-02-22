@@ -56,6 +56,17 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Featured Projects
 
+### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Students)
+**Tech Stack:** Python | ChromaDB | BM25 | PyMuPDF | sentence-transformers | Google Gemini
+
+Built a RAG-based chatbot that answers U.S. tax questions for international students using 41 real IRS documents — publications, forms, tax treaties, and university guides — instead of model hallucinations. Extracted and cleaned text page-by-page using PyMuPDF, split into 2,247 chunks (500-word windows, 100-word overlap), and embedded each chunk into 384-dimensional vectors using `all-MiniLM-L6-v2` (local, free). Stored all chunks and vectors in ChromaDB.
+
+Implemented a personalized intake flow collecting 7 student profile attributes at startup to ground every answer in the student's specific situation. Built hybrid retrieval combining vector similarity search and BM25 keyword search, merged via Reciprocal Rank Fusion (RRF) to surface the top 5 most relevant chunks — improving hit rate from 70% (vector-only) to 100%. Added dual safety guards: a keyword filter that instantly rejects off-topic questions, and a confidence threshold (≥0.70 vector score) before invoking the LLM. Integrated Gemini 2.0 Flash for generation with a raw-chunk extractive fallback if the API is unavailable.
+
+Built a full evaluation framework (`evaluate.py`) across 5 metrics — Context Relevance, Hit Rate, Answer Relevance, Faithfulness, and an LLM-as-a-Judge (second Gemini call scoring correctness, completeness, and groundedness 0–1) — iterating from v1 to v3 with a final Judge score of 0.770. Tracks per-query latency and token estimates, logs all stats to `query_log.jsonl`, and collects y/n user feedback to `feedback_log.jsonl` after every answer.
+
+---
+
 ### [Distributed Kayak Travel Booking System](https://github.com/aneessaheba/kayak-distributed-system)
 **Tech Stack:** FastAPI | Kafka | MySQL | MongoDB | Redis
 
@@ -67,20 +78,6 @@ Built a distributed travel booking system inspired by Kayak supporting search, b
 **Tech Stack:** LangChain | FastAPI | React | MySQL
 
 Built a full-stack Airbnb-style platform with property listings, bookings, and secure authentication. Designed an Agentic AI Concierge using LangChain to generate personalized travel plans and recommendations. Integrated LLM-driven workflows with backend APIs for context-aware, goal-oriented user interactions.
-
----
-
-### [Multi-Agent Blog System](https://github.com/aneessaheba/ollama-agentic-ai)
-**Tech Stack:** Ollama | Docker | AWS ECS | HTML/CSS/JS
-
-Built a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Developed a web front-end for blog submission with HTML, CSS, and JavaScript, including JSON handling. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs ('smollm:1.7b', 'Phi3:mini'). Generated automated outputs including tags, summaries, and a publishable content package.
-
----
-
-### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/StockMarketETL)
-**Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling
-
-Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion. Designed a dimensional data warehouse in PostgreSQL for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments and efficient environment management. Developed analytics dashboards and SQL queries for stock trends, financial KPIs, and company-level insights.
 
 ---
 
@@ -204,6 +201,22 @@ Built an ETL pipeline for stock market data using Python, integrating multiple s
 
 ### Generative AI & Agentic Systems
 
+#### [Multi-Agent Blog System](https://github.com/aneessaheba/ollama-agentic-ai)
+**Tech Stack:** Ollama | Docker | AWS ECS | HTML/CSS/JS
+
+Built a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Developed a web front-end for blog submission with HTML, CSS, and JavaScript, including JSON handling. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs ('smollm:1.7b', 'Phi3:mini'). Generated automated outputs including tags, summaries, and a publishable content package.
+
+#### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Students)
+**Tech Stack:** Python | ChromaDB | BM25 | PyMuPDF | sentence-transformers | Google Gemini
+
+Built a RAG-based chatbot that answers U.S. tax questions for international students using 41 real IRS documents — publications, forms, tax treaties, and university guides — instead of model hallucinations. Extracted and cleaned text page-by-page using PyMuPDF, split into 2,247 chunks (500-word windows, 100-word overlap), and embedded each chunk into 384-dimensional vectors using `all-MiniLM-L6-v2` (local, free). Stored all chunks and vectors in ChromaDB.
+
+Implemented a personalized intake flow collecting 7 student profile attributes at startup to ground every answer in the student's specific situation. Built hybrid retrieval combining vector similarity search and BM25 keyword search, merged via Reciprocal Rank Fusion (RRF) to surface the top 5 most relevant chunks — improving hit rate from 70% (vector-only) to 100%. Added dual safety guards: a keyword filter that instantly rejects off-topic questions, and a confidence threshold (≥0.70 vector score) before invoking the LLM. Integrated Gemini 2.0 Flash for generation with a raw-chunk extractive fallback if the API is unavailable.
+
+Built a full evaluation framework (`evaluate.py`) across 5 metrics — Context Relevance, Hit Rate, Answer Relevance, Faithfulness, and an LLM-as-a-Judge (second Gemini call scoring correctness, completeness, and groundedness 0–1) — iterating from v1 to v3 with a final Judge score of 0.770. Tracks per-query latency and token estimates, logs all stats to `query_log.jsonl`, and collects y/n user feedback to `feedback_log.jsonl` after every answer.
+
+---
+
 #### [AI Memory Chatbot Agent](https://github.com/aneessaheba/Chat-agentic-ai)
 **Tech Stack:** FastAPI | MongoDB | Google Gemini | Motor
 
@@ -222,6 +235,11 @@ Developed an AI-powered career planning assistant using Gemini LLM and custom to
 ---
 
 ### Data Engineering & Analytics
+
+#### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/StockMarketETL)
+**Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling
+
+Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion. Designed a dimensional data warehouse in PostgreSQL for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments and efficient environment management. Developed analytics dashboards and SQL queries for stock trends, financial KPIs, and company-level insights.
 
 #### [Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)
 **Tech Stack:** AWS Glue | Snowflake | Power BI
