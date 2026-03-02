@@ -63,7 +63,7 @@ Built a RAG-based chatbot that answers U.S. tax questions for international stud
 
 ---
 
-### [Distributed Kayak Travel Booking System](https://github.com/aneessaheba/kayak-distributed-system)
+### [Distributed Kayak Travel Booking System](https://github.com/aneessaheba/kayak-travel-system)
 **Tech Stack:** FastAPI | Kafka | MySQL | MongoDB | Redis
 
 Built a distributed travel booking system inspired by Kayak supporting search, booking, billing, and analytics for flights, hotels, and cars. Designed backend microservices using FastAPI, Kafka, and relational + NoSQL databases. Developed an AI-powered recommendation service for personalized travel deals and real-time updates. Implemented scalable infrastructure and service communication for resilient, high-throughput operations.
