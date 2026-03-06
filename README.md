@@ -56,7 +56,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Featured Projects
 
-### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Students)
+### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students)
 **Tech Stack:** Python | LangChain | ChromaDB | Elasticsearch | BM25 | PyMuPDF | sentence-transformers | LLaMA | Google Gemini
 
 Built a RAG-based chatbot that answers U.S. tax questions for international students grounded in 41 real IRS documents — publications, forms, tax treaties, and university guides — extracted page-by-page with PyMuPDF, split into 2,247 chunks, and embedded using `all-MiniLM-L6-v2` into ChromaDB and Elasticsearch. Orchestrated the full pipeline with LangChain, implementing hybrid retrieval (vector search + BM25 merged via Reciprocal Rank Fusion) that boosted hit rate from 70% to 100%, dual safety guards (keyword filter + 0.70 confidence threshold), and personalized answers conditioned on 7 student profile attributes collected at startup. Powered generation with LLaMA and Gemini 2.0 Flash with an extractive fallback, and built a 5-metric evaluation framework (Context Relevance, Hit Rate, Answer Relevance, Faithfulness, LLM-as-a-Judge) achieving a final Judge score of 0.770 across iterative versions.
