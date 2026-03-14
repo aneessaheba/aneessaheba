@@ -221,7 +221,7 @@ Developed an AI-powered career planning assistant using Gemini LLM and custom to
 
 ### Data Engineering & Analytics
 
-#### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/StockMarketETL)
+#### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee)
 **Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling
 
 Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion. Designed a dimensional data warehouse in PostgreSQL for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments and efficient environment management. Developed analytics dashboards and SQL queries for stock trends, financial KPIs, and company-level insights.
