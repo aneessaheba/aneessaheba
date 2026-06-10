@@ -56,10 +56,25 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Featured Projects
 
-### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students)
+### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students) | [Live](https://rag-tax-advisory-system-for-students.onrender.com/)
 **Tech Stack:** Python | LangChain | ChromaDB | Elasticsearch | BM25 | PyMuPDF | sentence-transformers | LLaMA | Google Gemini
 
 Built a RAG-based chatbot that answers U.S. tax questions for international students grounded in 41 real IRS documents — publications, forms, tax treaties, and university guides — extracted page-by-page with PyMuPDF, split into 2,247 chunks, and embedded using `all-MiniLM-L6-v2` into ChromaDB and Elasticsearch. Orchestrated the full pipeline with LangChain, implementing hybrid retrieval (vector search + BM25 merged via Reciprocal Rank Fusion) that boosted hit rate from 70% to 100%, dual safety guards (keyword filter + 0.70 confidence threshold), and personalized answers conditioned on 7 student profile attributes collected at startup. Powered generation with LLaMA and Gemini 2.0 Flash with an extractive fallback, and built a 5-metric evaluation framework (Context Relevance, Hit Rate, Answer Relevance, Faithfulness, LLM-as-a-Judge) achieving a final Judge score of 0.770 across iterative versions.
+
+---
+
+### [EgoHomes: Egocentric Household Activity Dataset](https://github.com/aneessaheba/Egocentric_Homes) | [Live](https://egocentric-homes.vercel.app/)
+**Tech Stack:** Python | MediaPipe | YOLOv8 | SAM 3 | Whisper | OpenCV | FFmpeg | MLX
+
+Built a fully automated multimodal annotation pipeline for egocentric household activity video, collecting first-person footage and producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrated MediaPipe HandLandmarker (21-point hand skeleton) with YOLOv8 pose estimation for wrist-to-elbow arm tracking, SAM 3 for segmentation, and Whisper for narration transcription. Recruited participants for people data collection, managed the full data lifecycle from onboarding to training-ready output, and designed synchronized JSON frame-level annotation schemas with automated quality control scoring. Deployed a full-stack web application for dataset exploration and documentation targeting open release alongside a research paper for the embodied AI and VLA research community.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat)
+![SAM3](https://img.shields.io/badge/SAM_3-FF6B6B?style=flat)
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
+![MLX](https://img.shields.io/badge/MLX-000000?style=flat)
 
 ---
 
@@ -135,6 +150,8 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
@@ -155,6 +172,7 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
+![ElasticSearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![AWS SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat&logo=amazonaws&logoColor=white)
@@ -162,6 +180,8 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 ![Amazon EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
 ![AWS ECS](https://img.shields.io/badge/ECS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 
 ### Data Engineering & Big Data
 
@@ -172,6 +192,7 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 ![ETL](https://img.shields.io/badge/ETL-00897B?style=flat)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
 ![AWS Glue](https://img.shields.io/badge/AWS_Glue-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![TimescaleDB](https://img.shields.io/badge/TimescaleDB-FDB515?style=flat)
 
 ### Data Analysis & Visualization
 
@@ -180,6 +201,7 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Apache Superset](https://img.shields.io/badge/Apache_Superset-FF0000?style=flat)
 
 ### Tools & Development
 
@@ -222,9 +244,31 @@ Developed an AI-powered career planning assistant using Gemini LLM and custom to
 ### Data Engineering & Analytics
 
 #### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee)
-**Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling
+**Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling | Apache Airflow | Kafka | TimescaleDB
 
-Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion. Designed a dimensional data warehouse in PostgreSQL for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments and efficient environment management. Developed analytics dashboards and SQL queries for stock trends, financial KPIs, and company-level insights.
+Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion across 50,567 records with 9 daily Airflow DAGs. Designed a star-schema dimensional data warehouse in TimescaleDB for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments. Developed 13 analytics visualizations using Tableau and Apache Superset covering YoY trends, volatility analysis, ROE rankings, and correlation heatmaps.
+
+#### [Real-Time Flight Delay Prediction Pipeline](https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata)
+**Tech Stack:** Apache Kafka | Apache Spark | PySpark | HDFS | Apache Airflow | Docker
+
+Built an end-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib and 3-fold CrossValidator, achieving AUC-ROC 0.94 and F1 0.90. Designed a real-time streaming inference system using Apache Kafka and Spark Structured Streaming processing 11,648 events/sec (23x above target) with end-to-end latency profiling. Serialized full Spark ML PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming inference paths.
+
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![HDFS](https://img.shields.io/badge/HDFS-66CCFF?style=flat&logo=apachehadoop&logoColor=black)
+
+#### [Comprehensive Public Health Analytics Dashboard](https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard)
+**Tech Stack:** Python | SQL | Tableau | Pandas | CDC Socrata API
+
+Built a multi-source data pipeline aggregating and cleaning public health datasets from CDC PLACES, CDC BRFSS, SAMHSA, and WHO across 721 US counties. Applied statistical analysis identifying a statistically significant obesity-diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Designed Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics distilling complex public health data into clear visualizations for non-technical stakeholders.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 
 #### [Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)
 **Tech Stack:** AWS Glue | Snowflake | Power BI
@@ -253,6 +297,19 @@ Object-oriented stock tracking application with both console and GUI interfaces 
 ---
 
 ### Machine Learning & Computer Vision
+
+#### [EgoHomes: Egocentric Household Activity Dataset](https://github.com/aneessaheba/Egocentric_Homes) | [Live](https://egocentric-homes.vercel.app/)
+**Tech Stack:** Python | MediaPipe | YOLOv8 | SAM 3 | Whisper | OpenCV | FFmpeg | MLX
+
+Built a fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrated MediaPipe HandLandmarker (21-point hand skeleton) with YOLOv8 pose estimation for wrist-to-elbow arm tracking, SAM 3 for segmentation, and Whisper for narration. Recruited participants, managed the full data lifecycle from onboarding to training-ready output, and designed JSON frame-level annotation schemas with automated quality control scoring. Targeting open release alongside a research paper for the embodied AI and VLA research community.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat)
+![SAM3](https://img.shields.io/badge/SAM_3-FF6B6B?style=flat)
+![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
+![MLX](https://img.shields.io/badge/MLX-000000?style=flat)
 
 #### 4DX Movie Technology Using ML
 **Tech Stack:** TensorFlow | CNN | Python | OpenCV | Audio Processing
