@@ -54,41 +54,213 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
-## Featured Projects
+## Projects
 
-### [RAG Tax Advisory System for International Students](https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students) | [Live](https://rag-tax-advisory-system-for-students.onrender.com/)
-**Tech Stack:** Python | LangChain | ChromaDB | Elasticsearch | BM25 | PyMuPDF | sentence-transformers | LLaMA | Google Gemini
+### Generative AI & Agentic Systems
 
-Built a RAG-based chatbot that answers U.S. tax questions for international students grounded in 41 real IRS documents — publications, forms, tax treaties, and university guides — extracted page-by-page with PyMuPDF, split into 2,247 chunks, and embedded using `all-MiniLM-L6-v2` into ChromaDB and Elasticsearch. Orchestrated the full pipeline with LangChain, implementing hybrid retrieval (vector search + BM25 merged via Reciprocal Rank Fusion) that boosted hit rate from 70% to 100%, dual safety guards (keyword filter + 0.70 confidence threshold), and personalized answers conditioned on 7 student profile attributes collected at startup. Powered generation with LLaMA and Gemini 2.0 Flash with an extractive fallback, and built a 5-metric evaluation framework (Context Relevance, Hit Rate, Answer Relevance, Faithfulness, LLM-as-a-Judge) achieving a final Judge score of 0.770 across iterative versions.
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>RAG Tax Advisory System for International Students</b><br/>
+        <sub>Python · LangChain · ChromaDB · Elasticsearch · BM25 · PyMuPDF · sentence-transformers · LLaMA · Google Gemini</sub>
+      </td>
+      <td>RAG-based chatbot answering U.S. tax questions for international students, grounded in 41 real IRS documents (publications, forms, tax treaties, university guides) extracted page-by-page with PyMuPDF and split into 2,247 chunks. Hybrid retrieval (vector search + BM25 via Reciprocal Rank Fusion) boosted hit rate from 70% to 100%. Dual safety guards, personalized answers conditioned on 7 student profile attributes, and a 5-metric evaluation framework achieving a final LLM-as-a-Judge score of 0.770.</td>
+      <td><a href="https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students">GitHub</a> · <a href="https://rag-tax-advisory-system-for-students.onrender.com/">Live</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Multi-Agent Blog System</b><br/>
+        <sub>Ollama · Docker · AWS ECS · HTML/CSS/JS</sub>
+      </td>
+      <td>Multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Web front-end for blog submission with HTML, CSS, and JavaScript. Deployed on Docker + AWS ECS integrating lightweight local LLMs (smollm:1.7b, Phi3:mini). Automated outputs include tags, summaries, and a publishable content package.</td>
+      <td><a href="https://github.com/aneessaheba/ollama-agentic-ai">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>AI Memory Chatbot Agent</b><br/>
+        <sub>FastAPI · MongoDB · Google Gemini · Motor</sub>
+      </td>
+      <td>Intelligent chatbot with multi-tiered memory architecture: short-term conversational memory, session-based summaries, lifetime user context condensation, and episodic memory retrieval with vector embeddings. Automatic memory consolidation, importance-weighted fact extraction, and context-aware responses using Google Generative AI.</td>
+      <td><a href="https://github.com/aneessaheba/Chat-agentic-ai">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Bike-Share Pass Optimizer</b><br/>
+        <sub>ReAct · MRKL · DuckDB · Express</sub>
+      </td>
+      <td>Single-agent ReAct + MRKL workflow analyzing Divvy bike-share trip data to recommend membership vs pay-per-ride pricing. Custom tools (CSV SQL via DuckDB, policy retrieval with web scraping, calculator) with transparent Thought → Action → Observation traces and policy citations for decision justification.</td>
+      <td><a href="https://github.com/aneessaheba/auth-route-and-bike-share-analysis">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Career Counseling Agent</b><br/>
+        <sub>Streamlit · Gemini · LangChain</sub>
+      </td>
+      <td>AI-powered career planning assistant with Skills Gap Analyzer, Resume Scorer with improvement suggestions (0–10 scale), Salary Estimator, and Interview Question Generator for personalized career guidance.</td>
+      <td><a href="https://github.com/aneessaheba/streamlit-career-agent-gemini">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Airbnb Prototype with Agentic AI</b><br/>
+        <sub>LangChain · FastAPI · React · MySQL</sub>
+      </td>
+      <td>Full-stack Airbnb-style platform with property listings, bookings, and secure authentication. Agentic AI Concierge using LangChain to generate personalized travel plans and recommendations. LLM-driven workflows integrated with backend APIs for context-aware, goal-oriented user interactions.</td>
+      <td><a href="https://github.com/aneessaheba/airbnb-agentic-ai">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### [EgoHomes: Egocentric Household Activity Dataset](https://github.com/aneessaheba/Egocentric_Homes) | [Live](https://egocentric-homes.vercel.app/)
-**Tech Stack:** Python | MediaPipe | YOLOv8 | SAM 3 | Whisper | OpenCV | FFmpeg | MLX
+### Data Engineering & Analytics
 
-Built a fully automated multimodal annotation pipeline for egocentric household activity video, collecting first-person footage and producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrated MediaPipe HandLandmarker (21-point hand skeleton) with YOLOv8 pose estimation for wrist-to-elbow arm tracking, SAM 3 for segmentation, and Whisper for narration transcription. Recruited participants for people data collection, managed the full data lifecycle from onboarding to training-ready output, and designed synchronized JSON frame-level annotation schemas with automated quality control scoring. Deployed a full-stack web application for dataset exploration and documentation targeting open release alongside a research paper for the embodied AI and VLA research community.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat)
-![SAM3](https://img.shields.io/badge/SAM_3-FF6B6B?style=flat)
-![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
-![MLX](https://img.shields.io/badge/MLX-000000?style=flat)
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Stock Data ETL & Data Warehouse Pipeline</b><br/>
+        <sub>PostgreSQL · Docker · ETL · Dimensional Modeling · Apache Airflow · Kafka · TimescaleDB</sub>
+      </td>
+      <td>ETL pipeline for stock market data integrating multiple sources and automating ingestion across 50,567 records with 9 daily Airflow DAGs. Star-schema dimensional data warehouse in TimescaleDB for structured financial analysis. Dockerized workflows for reproducible deployments. 13 analytics visualizations in Tableau and Apache Superset covering YoY trends, volatility analysis, ROE rankings, and correlation heatmaps.</td>
+      <td><a href="https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Real-Time Flight Delay Prediction Pipeline</b><br/>
+        <sub>Apache Kafka · Apache Spark · PySpark · HDFS · Apache Airflow · Docker</sub>
+      </td>
+      <td>End-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib (3-fold CrossValidator), achieving AUC-ROC 0.94 and F1 0.90. Real-time streaming inference with Kafka + Spark Structured Streaming at 11,648 events/sec (23× above target). Serialized PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming paths.</td>
+      <td><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Comprehensive Public Health Analytics Dashboard</b><br/>
+        <sub>Python · SQL · Tableau · Pandas · CDC Socrata API</sub>
+      </td>
+      <td>Multi-source pipeline aggregating CDC PLACES, CDC BRFSS, SAMHSA, and WHO data across 721 US counties. Statistical analysis identifying a significant obesity–diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics for non-technical stakeholders.</td>
+      <td><a href="https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Spotify Data Analysis</b><br/>
+        <sub>AWS Glue · Snowflake · Power BI</sub>
+      </td>
+      <td>ETL pipeline with Spotify API, AWS Glue, and Snowflake. Interactive Power BI dashboards delivering insights on peak listening hours, weekend patterns, and top artists/tracks.</td>
+      <td><a href="https://github.com/aneessaheba/Spotify-Data-Analysis">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Retail Orders Analytics Project</b><br/>
+        <sub>Python · Pandas · SQL Server</sub>
+      </td>
+      <td>End-to-end data pipeline processing a retail orders dataset with Python and Pandas, loaded into SQL Server. Advanced analytics identifying top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.</td>
+      <td><a href="https://github.com/aneessaheba/Retail-Orders-Analytics-Project">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### [Distributed Kayak Travel Booking System](https://github.com/aneessaheba/kayak-travel-system)
-**Tech Stack:** FastAPI | Kafka | MySQL | MongoDB | Redis
+### Machine Learning & Computer Vision
 
-Built a distributed travel booking system inspired by Kayak supporting search, booking, billing, and analytics for flights, hotels, and cars. Designed backend microservices using FastAPI, Kafka, and relational + NoSQL databases. Developed an AI-powered recommendation service for personalized travel deals and real-time updates. Implemented scalable infrastructure and service communication for resilient, high-throughput operations.
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>EgoHomes: Egocentric Household Activity Dataset</b><br/>
+        <sub>Python · MediaPipe · YOLOv8 · SAM 3 · Whisper · OpenCV · FFmpeg · MLX</sub>
+      </td>
+      <td>Fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrates MediaPipe HandLandmarker (21-point hand skeleton), YOLOv8 pose estimation, SAM 3 for segmentation, and Whisper for narration. JSON frame-level annotation schemas with automated quality control. Targeting open release alongside a VLA research paper.</td>
+      <td><a href="https://github.com/aneessaheba/Egocentric_Homes">GitHub</a> · <a href="https://egocentric-homes.vercel.app/">Live</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>4DX Movie Technology Using ML</b><br/>
+        <sub>TensorFlow · CNN · Python · OpenCV · Audio Processing</sub>
+      </td>
+      <td>CNN-based system processing synchronized audio-visual streams to detect dynamic movie events in real-time and trigger physical theater effects (water, wind, seat motion) with millisecond-level precision for immersive 4DX experiences.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>
+        <b>Face Mask Detection Using ML</b><br/>
+        <sub>MobileNetV2 · OpenCV · TensorFlow · Python</sub>
+      </td>
+      <td>Real-time face mask detection using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. OpenCV-based face detection with multi-face classification, optimized for edge deployment.</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>
+        <b>Credit Card Fraud Detection</b><br/>
+        <sub>PCA · Random Forest · Isolation Forest · Python · scikit-learn</sub>
+      </td>
+      <td>Anomaly detection pipeline for fraudulent transactions in highly imbalanced datasets using PCA dimensionality reduction and ensemble methods (Isolation Forest + Random Forest) with SMOTE oversampling and precision-recall optimization.</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### [Airbnb Prototype with Agentic AI](https://github.com/aneessaheba/airbnb-agentic-ai)
-**Tech Stack:** LangChain | FastAPI | React | MySQL
+### Software Engineering & Data Structures
 
-Built a full-stack Airbnb-style platform with property listings, bookings, and secure authentication. Designed an Agentic AI Concierge using LangChain to generate personalized travel plans and recommendations. Integrated LLM-driven workflows with backend APIs for context-aware, goal-oriented user interactions.
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>CheckMyGrade OOP Python</b><br/>
+        <sub>Python · OOP · CSV · Encryption</sub>
+      </td>
+      <td>Console-based student grade management using OOP and CSV persistence. CRUD, search, sort with timing analysis, data encryption, academic reports, and statistical analytics. Array and linked-list backends with role-based menus and comprehensive unit tests for performance validation.</td>
+      <td><a href="https://github.com/aneessaheba/CheckMyGrade-OOP-Python">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Stock Analysis Application</b><br/>
+        <sub>Python · OOP · GUI · SQLite</sub>
+      </td>
+      <td>Object-oriented stock tracking application with console and GUI interfaces. Embedded SQLite database for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization.</td>
+      <td><a href="https://github.com/aneessaheba/StockMarketAnalysis">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Distributed Kayak Travel Booking System</b><br/>
+        <sub>FastAPI · Kafka · MySQL · MongoDB · Redis</sub>
+      </td>
+      <td>Distributed travel booking system supporting search, booking, billing, and analytics for flights, hotels, and cars. FastAPI microservices with Kafka and relational + NoSQL databases. AI-powered recommendation service for personalized travel deals and real-time updates with resilient, high-throughput infrastructure.</td>
+      <td><a href="https://github.com/aneessaheba/kayak-travel-system">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -212,127 +384,6 @@ Built a full-stack Airbnb-style platform with property listings, bookings, and s
 ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white)
-
----
-
-## Additional Projects
-
-### Generative AI & Agentic Systems
-
-#### [Multi-Agent Blog System](https://github.com/aneessaheba/ollama-agentic-ai)
-**Tech Stack:** Ollama | Docker | AWS ECS | HTML/CSS/JS
-
-Built a multi-agent workflow using Ollama LLMs (Planner, Reviewer, Finalizer) for automated blog content creation. Developed a web front-end for blog submission with HTML, CSS, and JavaScript, including JSON handling. Deployed using Docker containers and AWS ECS, integrating lightweight local LLMs ('smollm:1.7b', 'Phi3:mini'). Generated automated outputs including tags, summaries, and a publishable content package.
-
-#### [AI Memory Chatbot Agent](https://github.com/aneessaheba/Chat-agentic-ai)
-**Tech Stack:** FastAPI | MongoDB | Google Gemini | Motor
-
-Built an intelligent chatbot with multi-tiered memory architecture using FastAPI and MongoDB. Implements short-term conversational memory, session-based summaries, lifetime user context condensation, and episodic memory retrieval with vector embeddings. Features automatic memory consolidation, importance-weighted fact extraction, and context-aware responses using Google Generative AI.
-
-#### [Bike-Share Pass Optimizer](https://github.com/aneessaheba/auth-route-and-bike-share-analysis)
-**Tech Stack:** ReAct | MRKL | DuckDB | Express
-
-Built a single-agent ReAct + MRKL workflow that analyzes Divvy bike-share trip data to recommend whether riders should purchase a membership or stay on pay-per-ride pricing. Implements custom tools (CSV SQL via DuckDB, policy retrieval with web scraping, calculator) with transparent Thought → Action → Observation traces and policy citations for decision justification.
-
-#### [Career Counseling Agent](https://github.com/aneessaheba/streamlit-career-agent-gemini)
-**Tech Stack:** Streamlit | Gemini | LangChain
-
-Developed an AI-powered career planning assistant using Gemini LLM and custom tools. Features include Skills Gap Analyzer, Resume Scorer with improvement suggestions (0-10 scale), Salary Estimator, and Interview Question Generator for personalized career guidance.
-
----
-
-### Data Engineering & Analytics
-
-#### [Stock Data ETL & Data Warehouse Pipeline](https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee)
-**Tech Stack:** PostgreSQL | Docker | ETL | Dimensional Modeling | Apache Airflow | Kafka | TimescaleDB
-
-Built an ETL pipeline for stock market data using Python, integrating multiple sources and automating data ingestion across 50,567 records with 9 daily Airflow DAGs. Designed a star-schema dimensional data warehouse in TimescaleDB for structured financial analysis and reporting. Implemented Dockerized workflows for reproducible deployments. Developed 13 analytics visualizations using Tableau and Apache Superset covering YoY trends, volatility analysis, ROE rankings, and correlation heatmaps.
-
-#### [Real-Time Flight Delay Prediction Pipeline](https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata)
-**Tech Stack:** Apache Kafka | Apache Spark | PySpark | HDFS | Apache Airflow | Docker
-
-Built an end-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib and 3-fold CrossValidator, achieving AUC-ROC 0.94 and F1 0.90. Designed a real-time streaming inference system using Apache Kafka and Spark Structured Streaming processing 11,648 events/sec (23x above target) with end-to-end latency profiling. Serialized full Spark ML PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming inference paths.
-
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
-![Spark](https://img.shields.io/badge/Spark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![HDFS](https://img.shields.io/badge/HDFS-66CCFF?style=flat&logo=apachehadoop&logoColor=black)
-
-#### [Comprehensive Public Health Analytics Dashboard](https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard)
-**Tech Stack:** Python | SQL | Tableau | Pandas | CDC Socrata API
-
-Built a multi-source data pipeline aggregating and cleaning public health datasets from CDC PLACES, CDC BRFSS, SAMHSA, and WHO across 721 US counties. Applied statistical analysis identifying a statistically significant obesity-diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Designed Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics distilling complex public health data into clear visualizations for non-technical stakeholders.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-
-#### [Spotify Data Analysis](https://github.com/aneessaheba/Spotify-Data-Analysis)
-**Tech Stack:** AWS Glue | Snowflake | Power BI
-
-Built an ETL pipeline with Spotify API, AWS Glue, and Snowflake. Created interactive Power BI dashboards delivering insights on peak hours, weekend listening patterns, and top artists/tracks.
-
-#### [Retail Orders Analytics Project](https://github.com/aneessaheba/Retail-Orders-Analytics-Project)
-**Tech Stack:** Python | Pandas | SQL Server
-
-Built an end-to-end data pipeline using Python and Pandas to process retail orders dataset. Loaded cleaned data into SQL Server and performed advanced analytics to identify top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.
-
----
-
-### Software Engineering & Data Structures
-
-#### [CheckMyGrade-OOP-Python](https://github.com/aneessaheba/CheckMyGrade-OOP-Python)
-**Tech Stack:** Python | OOP | CSV | Encryption
-
-Python console-based student grade management application using object-oriented programming principles and CSV data persistence. Supports CRUD operations, search, sort with timing analysis, data encryption, academic reports, and statistical analytics. Implements both array and linked list backends with role-based menus and comprehensive unit tests for performance validation.
-
-#### [Stock Analysis Application](https://github.com/aneessaheba/StockMarketAnalysis)
-**Tech Stack:** Python | OOP | GUI | SQLite
-
-Object-oriented stock tracking application with both console and GUI interfaces built using Python. Features embedded database management for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization using Python libraries.
-
----
-
-### Machine Learning & Computer Vision
-
-#### [EgoHomes: Egocentric Household Activity Dataset](https://github.com/aneessaheba/Egocentric_Homes) | [Live](https://egocentric-homes.vercel.app/)
-**Tech Stack:** Python | MediaPipe | YOLOv8 | SAM 3 | Whisper | OpenCV | FFmpeg | MLX
-
-Built a fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrated MediaPipe HandLandmarker (21-point hand skeleton) with YOLOv8 pose estimation for wrist-to-elbow arm tracking, SAM 3 for segmentation, and Whisper for narration. Recruited participants, managed the full data lifecycle from onboarding to training-ready output, and designed JSON frame-level annotation schemas with automated quality control scoring. Targeting open release alongside a research paper for the embodied AI and VLA research community.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-00897B?style=flat)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat)
-![SAM3](https://img.shields.io/badge/SAM_3-FF6B6B?style=flat)
-![Whisper](https://img.shields.io/badge/Whisper-412991?style=flat&logo=openai&logoColor=white)
-![MLX](https://img.shields.io/badge/MLX-000000?style=flat)
-
-#### 4DX Movie Technology Using ML
-**Tech Stack:** TensorFlow | CNN | Python | OpenCV | Audio Processing
-
-Developed a CNN-based system that processes synchronized audio-visual streams to detect dynamic movie events in real-time and trigger corresponding physical theater effects (water, wind, seat motion) with millisecond-level precision for immersive 4DX experiences.
-
-#### Face Mask Detection Using ML
-**Tech Stack:** MobileNetV2 | OpenCV | TensorFlow | Python
-
-Built a real-time face mask detection system using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS with OpenCV-based face detection and multi-face classification capabilities optimized for edge deployment.
-
-#### Credit Card Fraud Detection
-**Tech Stack:** PCA | Random Forest | Isolation Forest | Python | scikit-learn
-
-Implemented an anomaly detection pipeline for identifying fraudulent transactions in highly imbalanced datasets using PCA dimensionality reduction and ensemble methods (Isolation Forest + Random Forest) with SMOTE oversampling and precision-recall optimization.
-
----
-
-### Data Visualization
-
-#### [Tableau Public Portfolio](https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes)
-
-Interactive dashboards for business intelligence, trend analysis, and KPI visualization showcasing storytelling with data.
 
 ---
 
