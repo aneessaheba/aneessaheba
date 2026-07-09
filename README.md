@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Anees Saheba Guddi</h1>
+<h1 align="center">I'm Anees Saheba Guddi</h1>
 <h3 align="center">Generative AI & LLMs | Distributed Systems | Data Engineering</h3>
 <h4 align="center">MS in Applied Data Intelligence @ San José State University</h4>
 
@@ -209,7 +209,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
         <sub>MobileNetV2 · OpenCV · TensorFlow · Python</sub>
       </td>
       <td>Real-time face mask detection using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. OpenCV-based face detection with multi-face classification, optimized for edge deployment.</td>
-      <td>—</td>
+      <td><a href="https://github.com/aneessaheba/Face-Mask-Detection-Using-ML">GitHub</a></td>
     </tr>
     <tr>
       <td>
