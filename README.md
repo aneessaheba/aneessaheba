@@ -20,8 +20,6 @@
   <a href="#education">Education</a>
 </p>
 
----
-
 ## About Me
 
 I'm an MS student in Applied Data Intelligence at **San José State University** (graduating May 2027), focused on **large language models, agentic AI and deep learning**.
@@ -31,8 +29,6 @@ My recent work spans the LLM stack: making long-context inference cheaper throug
 I also build the systems around the models, including RAG pipelines, Kafka and Spark streaming pipelines, data warehouses and microservices. Before grad school I spent a year as a Software Development Engineer at **HP**, building customer-support chatbots.
 
 **Open to:** ML / GenAI Engineer roles starting 2027
-
----
 
 ## All Projects
 
@@ -249,8 +245,6 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
   </tr>
 </table>
 
----
-
 ## Experience
 
 **Software Development Engineer** · Hewlett Packard (HP), Bengaluru · *Jul 2023 – Aug 2024*
@@ -261,8 +255,6 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 **Software Engineer Intern** · Pheuna Technology, Bengaluru · *May 2022 – Aug 2022*
 - Built RESTful APIs with Node.js, Express and Sequelize, plus Kafka producers and consumers for real-time event processing
 - Built a cross-platform React + Ionic dashboard for real-time monitoring
-
----
 
 ## Technical Skills
 
@@ -285,16 +277,12 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 | **Languages & Frameworks** | Python · SQL · JavaScript · TypeScript · Go · FastAPI · Streamlit · Flask · Node.js · Express · React · HTML / CSS |
 | **Tools** | Git · GitHub · Weights & Biases · pytest · Jupyter · Colab · Kaggle · LaTeX · VS Code · Postman · Jira |
 
----
-
 ## Education
 
 | | |
 |---|---|
 | **San José State University** · San Jose, CA<br/>MS, Applied Data Intelligence · *Jan 2025 – May 2027* · GPA 3.5/4.0 | Gen AI LLMs · Agentic AI · Machine Learning · Deep Learning · Big Data Algorithms · Distributed Systems · Scalable Data Platforms |
 | **Visvesvaraya Technological University** · Karnataka, India<br/>BE, Information Science and Engineering · *Aug 2019 – Jun 2023* · GPA 7.9/10.0 | Data Structures and Algorithms · Database Systems · Software Engineering |
-
----
 
 ## GitHub & LeetCode
 
