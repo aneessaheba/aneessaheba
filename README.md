@@ -1,5 +1,5 @@
 <h1 align="center">I'm Anees Saheba Guddi</h1>
-<h3 align="center">Generative AI & LLMs | Distributed Systems | Data Engineering</h3>
+<h3 align="center">LLMs & Agentic AI | Deep Learning | Data Engineering</h3>
 <h4 align="center">MS in Applied Data Intelligence @ San José State University</h4>
 
 <p align="center">
@@ -33,14 +33,15 @@
 
 ## About Me
 
-MS in Applied Data Intelligence student at **San José State University** (2025–2027) specializing in **Generative AI**, **LLM Fine-tuning**, and **Machine Learning Model Development**. I architect intelligent systems that combine cutting-edge AI capabilities with production-grade software engineering—from fine-tuning large language models and training deep learning networks to building agentic workflows and distributed architectures.
+I'm an MS student in Applied Data Intelligence at **San José State University** (graduating May 2027), focused on **large language models, agentic AI and deep learning**.
 
-My expertise spans the full machine learning lifecycle: designing and training neural networks from scratch, fine-tuning foundation models for domain-specific tasks, architecting LLM-based agentic systems with LangChain and LangGraph, and deploying scalable microservices. With professional experience as a Software Development Engineer at HP Inc., I bring hands-on knowledge in building production AI systems, distributed data pipelines, and intelligent automation solutions.
+My recent work spans the LLM stack: making long-context inference cheaper through KV-cache compression, building tool-using agents that fix real GitHub issues, and training Transformers, Vision Transformers, LSTMs and GANs from scratch in PyTorch. I care about careful evaluation: fair baselines, held-out test sets, controlled ablations, and honest write-ups of what didn't work.
 
-**Background**
-- Former Software Development Engineer at HP Inc. (Jul 2023 – Aug 2024)
-- B.E. in Information Science and Engineering from Visvesvaraya Technological University (2019-2023)
-- Based in San Jose, California | Originally from Bangalore, India
+I also build the systems around the models, including RAG pipelines, Kafka and Spark streaming pipelines, data warehouses and microservices. Before grad school I spent a year as a Software Development Engineer at **HP**, building customer-support chatbots.
+
+I write about Generative AI and data engineering on [Medium](https://medium.com/@aneessaheba.guddi) and [YouTube](https://www.youtube.com/@BytAByte).
+
+📫 **Open to:** ML / GenAI Engineer roles starting 2027  ·  San Jose, CA
 
 ---
 
@@ -549,6 +550,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 ![Fine-tuning](https://img.shields.io/badge/Fine--tuning-FF5722?style=flat)
 ![LoRA](https://img.shields.io/badge/LoRA-9C27B0?style=flat)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat)
+![vLLM](https://img.shields.io/badge/vLLM-30A2FF?style=flat)
 
 ### Machine Learning & Deep Learning
 
@@ -564,6 +566,10 @@ My expertise spans the full machine learning lifecycle: designing and training n
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-8E24AA?style=flat)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat)
+![SHAP](https://img.shields.io/badge/SHAP-FF0D57?style=flat)
+![Fairlearn](https://img.shields.io/badge/Fairlearn-2C6FAC?style=flat)
 
 ### Programming & Frameworks
 
