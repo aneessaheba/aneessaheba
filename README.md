@@ -291,12 +291,12 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&hide_border=true&bg_color=00000000&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&hide_border=true&bg_color=00000000&langs_count=8" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=dark&font=Ubuntu" alt="LeetCode Stats" />
+  <img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=light&font=Ubuntu&border=0" alt="LeetCode Stats" />
 </p>
 
 <p align="center"><sub>Thanks for stopping by. Feel free to reach out through any of the links at the top.</sub></p>
