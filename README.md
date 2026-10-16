@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Anees Saheba Guddi 👋</h1>
+<h1 align="center">Hi, I'm Anees Saheba Guddi</h1>
 <h3 align="center">LLMs & Agentic AI · Deep Learning · Data Engineering</h3>
 <p align="center">MS in Applied Data Intelligence @ San José State University · San Jose, CA</p>
 
@@ -318,7 +318,7 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
   <tr>
     <td><b>Distributed Kayak Travel Booking System</b><br/><sub>FastAPI · Kafka · MySQL · MongoDB · Redis</sub></td>
     <td>Distributed travel booking system supporting search, booking, billing and analytics for flights, hotels and cars. FastAPI microservices with Kafka and relational + NoSQL databases. AI-powered recommendation service for personalized travel deals and real-time updates.</td>
-    <td><a href="https://github.com/aneessaheba/kayak-travel-system">GitHub</a></td>
+    <td><a href="https://github.com/aneessaheba/distributed-kayak-booking-system">GitHub</a></td>
   </tr>
 </table>
 </details>
