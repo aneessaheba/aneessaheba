@@ -252,7 +252,7 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 - Designed conversation flows with conditional logic and fallbacks, integrated with backend APIs to fetch device status and recommended fixes
 - Evaluated early LLM tools for improving response quality and coverage
 
-**Software Engineer Intern** · Pheuna Technology, Bengaluru · *May 2022 – Aug 2022*
+**Software Engineer Intern** · Pheuna Technologies, Bengaluru · *May 2022 – Aug 2022*
 - Built RESTful APIs with Node.js, Express and Sequelize, plus Kafka producers and consumers for real-time event processing
 - Built a cross-platform React + Ionic dashboard for real-time monitoring
 
