@@ -56,7 +56,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Projects
 
-### Large Language Models (LLM Research & Fine-Tuning)
+### Large Language Models (LLMs)
 
 <table>
   <thead>
@@ -75,21 +75,12 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>Researched and benchmarked KV-cache compression techniques for long-context LLM inference on Llama-3.1-8B. Surveyed and selected methods across three families: token eviction (StreamingLLM, SnapKV, PyramidKV, H2O, AdaKV, KVzip), low-bit quantization (KIVI, TurboQuant) and learned autoencoder compression (KV-CAR). Designed a shared evaluation framework that compares every method at the same measured memory budget (50%, 25% and 12.5% of full KV memory) on LongBench, Needle-in-a-Haystack and RULER. Studied whether combining eviction and quantization makes errors compound. Profiled GPU memory, latency and concurrent-session capacity on an NVIDIA RTX 5090.</td>
       <td><a href="https://github.com/aneessaheba/298a-kv-cache-compression">GitHub</a></td>
     </tr>
-    <tr>
-      <td>
-        <b>Gemma 4 Developer Agent (software-engineering agent)</b><br/>
-        <sub>Python · Gemma 4 · Hugging Face Transformers · PEFT / LoRA · PyTorch · vLLM · ReAct-style Tool Calling · Git / Unified Diffs · pytest · Docker · Kaggle Notebooks · Weights & Biases</sub>
-        <br/><sub><i>Also: Agentic AI</i></sub>
-      </td>
-      <td>Autonomous coding agent built on Google's Gemma 4 for the Kaggle Gemma 4 Developer Agent competition. Given a real GitHub repository and an issue report, the agent explores the codebase, finds the faulty code, reasons about a fix, and generates a patch that passes the repository's validation tests. Evolved from a single-shot prompting baseline into a multi-step, tool-using agent with file search, code navigation, test execution and self-correction loops, plus LoRA fine-tuning on issue-to-patch data. Controlled experiments compared prompting strategies, tool sets and adapter settings, backed by a full experiment log, error analysis and a write-up of approaches that didn't work. <i>(8-person team project, DATA 266 Generative AI, SJSU)</i></td>
-      <td><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">GitHub</a></td>
-    </tr>
   </tbody>
 </table>
 
 ---
 
-### Agentic AI & RAG Applications
+### Agentic AI
 
 <table>
   <thead>
@@ -102,20 +93,12 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
-        <b>Pokémon TCG AI Battle Challenge (game-playing agent)</b><br/>
-        <sub>Python · PyTorch · Kaggle PTCG Simulator SDK · Gymnasium · PPO / Self-Play RL (Stable-Baselines3) · Monte Carlo Tree Search · NumPy · pandas · Matplotlib · Kaggle Agents Ladder</sub>
-        <br/><sub><i>Also: Reinforcement Learning</i></sub>
+        <b>Gemma 4 Developer Agent (software-engineering agent)</b><br/>
+        <sub>Python · Gemma 4 · Hugging Face Transformers · PEFT / LoRA · PyTorch · vLLM · ReAct-style Tool Calling · Git / Unified Diffs · pytest · Docker · Kaggle Notebooks · Weights & Biases</sub>
+        <br/><sub><i>Also: LLM Fine-Tuning</i></sub>
       </td>
-      <td>Autonomous agent that plays competitive Pokémon Trading Card Game matches, built for the Kaggle PTCG AI Battle Challenge. Decides under hidden information (unknown opponent hands and decks), plans several turns ahead and adapts to different opponent strategies. Progressed from a rule-based heuristic baseline to Monte Carlo Tree Search with determinization, then to a PPO-trained policy/value network trained through self-play in the official simulator. Strategies compared through local round-robin tournaments and the Kaggle ladder, with full experiment tracking and analysis of failed strategies. <i>(8-person team project, DATA 266, SJSU)</i></td>
-      <td><a href="https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>RAG Tax Advisory System for International Students</b><br/>
-        <sub>Python · LangChain · ChromaDB · Elasticsearch · BM25 · PyMuPDF · sentence-transformers · LLaMA · Google Gemini</sub>
-      </td>
-      <td>RAG-based chatbot answering U.S. tax questions for international students, grounded in 41 real IRS documents (publications, forms, tax treaties, university guides) extracted page-by-page with PyMuPDF and split into 2,247 chunks. Hybrid retrieval (vector search + BM25 via Reciprocal Rank Fusion) boosted hit rate from 70% to 100%. Dual safety guards, personalized answers conditioned on 7 student profile attributes, and a 5-metric evaluation framework achieving a final LLM-as-a-Judge score of 0.770.</td>
-      <td><a href="https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students">GitHub</a> · <a href="https://rag-tax-advisory-system-for-students.onrender.com/">Live</a></td>
+      <td>Autonomous coding agent built on Google's Gemma 4 for the Kaggle Gemma 4 Developer Agent competition. Given a real GitHub repository and an issue report, the agent explores the codebase, finds the faulty code, reasons about a fix, and generates a patch that passes the repository's validation tests. Evolved from a single-shot prompting baseline into a multi-step, tool-using agent with file search, code navigation, test execution and self-correction loops, plus LoRA fine-tuning on issue-to-patch data. Controlled experiments compared prompting strategies, tool sets and adapter settings, backed by a full experiment log, error analysis and a write-up of approaches that didn't work. <i>(8-person team project, DATA 266 Generative AI, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">GitHub</a></td>
     </tr>
     <tr>
       <td>
@@ -156,6 +139,55 @@ My expertise spans the full machine learning lifecycle: designing and training n
       </td>
       <td>Full-stack Airbnb-style platform with property listings, bookings, and secure authentication. Agentic AI Concierge using LangChain to generate personalized travel plans and recommendations. LLM-driven workflows integrated with backend APIs for context-aware, goal-oriented user interactions.</td>
       <td><a href="https://github.com/aneessaheba/airbnb-agentic-ai">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Retrieval-Augmented Generation (RAG)
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>RAG Tax Advisory System for International Students</b><br/>
+        <sub>Python · LangChain · ChromaDB · Elasticsearch · BM25 · PyMuPDF · sentence-transformers · LLaMA · Google Gemini</sub>
+      </td>
+      <td>RAG-based chatbot answering U.S. tax questions for international students, grounded in 41 real IRS documents (publications, forms, tax treaties, university guides) extracted page-by-page with PyMuPDF and split into 2,247 chunks. Hybrid retrieval (vector search + BM25 via Reciprocal Rank Fusion) boosted hit rate from 70% to 100%. Dual safety guards, personalized answers conditioned on 7 student profile attributes, and a 5-metric evaluation framework achieving a final LLM-as-a-Judge score of 0.770.</td>
+      <td><a href="https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students">GitHub</a> · <a href="https://rag-tax-advisory-system-for-students.onrender.com/">Live</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Reinforcement Learning
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Pokémon TCG AI Battle Challenge (game-playing agent)</b><br/>
+        <sub>Python · PyTorch · Kaggle PTCG Simulator SDK · Gymnasium · PPO / Self-Play RL (Stable-Baselines3) · Monte Carlo Tree Search · NumPy · pandas · Matplotlib · Kaggle Agents Ladder</sub>
+        <br/><sub><i>Domain: Game AI</i></sub>
+      </td>
+      <td>Autonomous agent that plays competitive Pokémon Trading Card Game matches, built for the Kaggle PTCG AI Battle Challenge. Decides under hidden information (unknown opponent hands and decks), plans several turns ahead and adapts to different opponent strategies. Progressed from a rule-based heuristic baseline to Monte Carlo Tree Search with determinization, then to a PPO-trained policy/value network trained through self-play in the official simulator. Strategies compared through local round-robin tournaments and the Kaggle ladder, with full experiment tracking and analysis of failed strategies. <i>(8-person team project, DATA 266, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl">GitHub</a></td>
     </tr>
   </tbody>
 </table>
@@ -229,6 +261,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>
         <b>EgoHomes: Egocentric Household Activity Dataset</b><br/>
         <sub>Python · MediaPipe · YOLOv8 · SAM 3 · Whisper · OpenCV · FFmpeg · MLX</sub>
+        <br/><sub><i>Domain: Robotics</i></sub>
       </td>
       <td>Fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrates MediaPipe HandLandmarker (21-point hand skeleton), YOLOv8 pose estimation, SAM 3 for segmentation, and Whisper for narration. JSON frame-level annotation schemas with automated quality control. Targeting open release alongside a VLA research paper.</td>
       <td><a href="https://github.com/aneessaheba/Egocentric_Homes">GitHub</a> · <a href="https://egocentric-homes.vercel.app/">Live</a></td>
@@ -254,7 +287,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
-### Machine Learning & AI for Science
+### Deep Learning
 
 <table>
   <thead>
@@ -269,14 +302,32 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>
         <b>Enveda CASMI 2026 (molecule identification from mass spectra)</b><br/>
         <sub>Python · PyTorch · PyTorch Geometric · RDKit · matchms · Transformers · Contrastive Learning · LightGBM (Learning-to-Rank) · NumPy · pandas · scikit-learn · Matplotlib · Kaggle Notebooks</sub>
+        <br/><sub><i>Domain: AI for Science</i></sub>
       </td>
       <td>AI-for-science pipeline that identifies unknown small molecules from tandem mass spectrometry (MS/MS) data, built for the Kaggle Enveda CASMI 2026 competition. Cleans and normalizes spectra, combines evidence from multiple spectra of the same compound, and ranks candidate 2D structures using learned spectrum and molecule embeddings. Compared a cosine-similarity spectral-matching baseline against neural approaches (a spectrum transformer encoder, graph neural network molecule encoders, and a contrastive spectrum-to-structure model), with a learning-to-rank re-ranker combining their scores. Documented experiment log and error analysis. <i>(8-person team project, DATA 266, SJSU)</i></td>
       <td><a href="https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra">GitHub</a></td>
     </tr>
+  </tbody>
+</table>
+
+---
+
+### Machine Learning
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>
         <b>Credit Card Fraud Detection</b><br/>
         <sub>PCA · Random Forest · Isolation Forest · Python · scikit-learn</sub>
+        <br/><sub><i>Also: Anomaly Detection · Domain: Finance</i></sub>
       </td>
       <td>Anomaly detection pipeline for fraudulent transactions in highly imbalanced datasets using PCA dimensionality reduction and ensemble methods (Isolation Forest + Random Forest) with SMOTE oversampling and precision-recall optimization.</td>
       <td>—</td>
@@ -286,7 +337,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
-### Big Data & Data Engineering
+### Big Data
 
 <table>
   <thead>
@@ -306,6 +357,22 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>End-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib (3-fold CrossValidator), achieving AUC-ROC 0.94 and F1 0.90. Real-time streaming inference with Kafka + Spark Structured Streaming at 11,648 events/sec (23× above target). Serialized PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming paths.</td>
       <td><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">GitHub</a></td>
     </tr>
+  </tbody>
+</table>
+
+---
+
+### Data Engineering
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>
         <b>Stock Data ETL & Data Warehouse Pipeline</b><br/>
@@ -344,6 +411,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>
         <b>Comprehensive Public Health Analytics Dashboard</b><br/>
         <sub>Python · SQL · Tableau · Pandas · CDC Socrata API</sub>
+        <br/><sub><i>Domain: Public Health</i></sub>
       </td>
       <td>Multi-source pipeline aggregating CDC PLACES, CDC BRFSS, SAMHSA, and WHO data across 721 US counties. Statistical analysis identifying a significant obesity–diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics for non-technical stakeholders.</td>
       <td><a href="https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard">GitHub</a></td>
@@ -356,38 +424,6 @@ My expertise spans the full machine learning lifecycle: designing and training n
       </td>
       <td>End-to-end data pipeline processing a retail orders dataset with Python and Pandas, loaded into SQL Server. Advanced analytics identifying top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.</td>
       <td><a href="https://github.com/aneessaheba/Retail-Orders-Analytics-Project">GitHub</a></td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-### Database Systems & Software Engineering
-
-<table>
-  <thead>
-    <tr>
-      <th>Project Name</th>
-      <th>Details</th>
-      <th>Repository Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b>CheckMyGrade OOP Python</b><br/>
-        <sub>Python · OOP · CSV · Encryption</sub>
-      </td>
-      <td>Console-based student grade management using OOP and CSV persistence. CRUD, search, sort with timing analysis, data encryption, academic reports, and statistical analytics. Array and linked-list backends with role-based menus and comprehensive unit tests for performance validation.</td>
-      <td><a href="https://github.com/aneessaheba/CheckMyGrade-OOP-Python">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>Stock Analysis Application</b><br/>
-        <sub>Python · OOP · GUI · SQLite</sub>
-      </td>
-      <td>Object-oriented stock tracking application with console and GUI interfaces. Embedded SQLite database for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization.</td>
-      <td><a href="https://github.com/aneessaheba/StockMarketAnalysis">GitHub</a></td>
     </tr>
   </tbody>
 </table>
@@ -412,6 +448,54 @@ My expertise spans the full machine learning lifecycle: designing and training n
       </td>
       <td>Distributed travel booking system supporting search, booking, billing, and analytics for flights, hotels, and cars. FastAPI microservices with Kafka and relational + NoSQL databases. AI-powered recommendation service for personalized travel deals and real-time updates with resilient, high-throughput infrastructure.</td>
       <td><a href="https://github.com/aneessaheba/kayak-travel-system">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Database Systems
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Stock Analysis Application</b><br/>
+        <sub>Python · OOP · GUI · SQLite</sub>
+      </td>
+      <td>Object-oriented stock tracking application with console and GUI interfaces. Embedded SQLite database for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization.</td>
+      <td><a href="https://github.com/aneessaheba/StockMarketAnalysis">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Software Engineering
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>CheckMyGrade OOP Python</b><br/>
+        <sub>Python · OOP · CSV · Encryption</sub>
+      </td>
+      <td>Console-based student grade management using OOP and CSV persistence. CRUD, search, sort with timing analysis, data encryption, academic reports, and statistical analytics. Array and linked-list backends with role-based menus and comprehensive unit tests for performance validation.</td>
+      <td><a href="https://github.com/aneessaheba/CheckMyGrade-OOP-Python">GitHub</a></td>
     </tr>
   </tbody>
 </table>
