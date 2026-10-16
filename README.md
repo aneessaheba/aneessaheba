@@ -256,6 +256,30 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
+### AI for Science
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>SpecMol: Deep Learning for Molecular Structure Identification from MS/MS Spectra</b><br/>
+        <sub>Python · PyTorch · PyTorch Geometric · RDKit · matchms · Transformers · Contrastive Learning · LightGBM (Learning-to-Rank) · NumPy · pandas · scikit-learn · Matplotlib · Kaggle Notebooks</sub>
+      </td>
+      <td>AI-for-science pipeline that identifies unknown small molecules from tandem mass spectrometry (MS/MS) data, built for the Kaggle Enveda CASMI 2026 competition. Cleans and normalizes spectra, combines evidence from multiple spectra of the same compound, and ranks candidate 2D structures using learned spectrum and molecule embeddings. Compared a cosine-similarity spectral-matching baseline against neural approaches (a spectrum transformer encoder, graph neural network molecule encoders, and a contrastive spectrum-to-structure model), with a learning-to-rank re-ranker combining their scores. Documented experiment log and error analysis. <i>(8-person team project, DATA 266, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ### Machine Learning & Computer Vision
 
 <table>
