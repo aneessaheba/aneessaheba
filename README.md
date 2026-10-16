@@ -46,11 +46,11 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Currently Working On
 
-- Building production-ready agentic AI systems with LangChain, LangGraph, and multi-tool orchestration
-- Exploring MLOps workflows, LLM fine-tuning techniques, and distributed machine learning training
-- Deepening knowledge in scalable data platforms and real-time streaming architectures
-- Contributing to open-source AI/ML projects and sharing insights through technical writing
-- Creating educational content on Gen AI and Data Engineering on Medium and YouTube
+- **[KV-Cache Compression for Long-Context LLM Inference](https://github.com/aneessaheba/298a-kv-cache-compression):** benchmarking token eviction, low-bit quantization and learned autoencoder compression on Llama-3.1-8B at matched memory budgets (50%, 25%, 12.5%)
+- **[Gemma 4 Developer Agent (software-engineering agent)](https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4):** an autonomous Gemma 4 coding agent that explores real GitHub repos, finds faulty code and generates patches that pass the tests, with tool use, self-correction and LoRA fine-tuning
+- **[Pokémon TCG AI Battle Challenge (game-playing agent)](https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl):** a game-playing agent that handles hidden information, moving from heuristics to Monte Carlo Tree Search to a PPO policy trained through self-play
+- **[PatchVision: Vision Transformer from Scratch for Fine-Grained Bird Classification](https://github.com/aneessaheba/PatchVision-ViT-from-Scratch-for-Bird-Classification):** a ViT trained from scratch on 200 bird species (CUB-200-2011), compared against a CNN baseline with controlled ablations
+- **[Enveda CASMI 2026 (molecule identification from mass spectra)](https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra):** identifying unknown molecules from MS/MS spectra using spectrum transformers, graph neural networks and contrastive learning, with a learning-to-rank re-ranker
 
 ---
 
