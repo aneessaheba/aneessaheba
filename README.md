@@ -88,11 +88,7 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 
 ## All Projects
 
-<sub>Click a category to expand it.</sub>
-
-<details>
-<summary><b>Large Language Models (LLMs)</b> · 1 project</summary>
-<br/>
+### Large Language Models (LLMs)
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -102,11 +98,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/298a-kv-cache-compression">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Agentic AI</b> · 6 projects</summary>
-<br/>
+### Agentic AI
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -141,11 +134,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/airbnb-agentic-ai">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Retrieval-Augmented Generation (RAG)</b> · 1 project</summary>
-<br/>
+### Retrieval-Augmented Generation (RAG)
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -155,11 +145,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students">GitHub</a><br/><a href="https://rag-tax-advisory-system-for-students.onrender.com/">Live</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Reinforcement Learning</b> · 1 project</summary>
-<br/>
+### Reinforcement Learning
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -169,11 +156,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Natural Language Processing (NLP)</b> · 2 projects</summary>
-<br/>
+### Natural Language Processing (NLP)
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -188,11 +172,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task2_sentiment/anees_saheba">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Computer Vision</b> · 5 projects</summary>
-<br/>
+### Computer Vision
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -222,11 +203,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td>—</td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Deep Learning</b> · 1 project</summary>
-<br/>
+### Deep Learning
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -236,11 +214,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Machine Learning</b> · 2 projects</summary>
-<br/>
+### Machine Learning
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -255,11 +230,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td>—</td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Big Data</b> · 1 project</summary>
-<br/>
+### Big Data
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -269,11 +241,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Data Engineering</b> · 2 projects</summary>
-<br/>
+### Data Engineering
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -288,11 +257,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/Spotify-Data-Analysis">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Data Analytics & Visualization</b> · 2 projects</summary>
-<br/>
+### Data Analytics & Visualization
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -307,11 +273,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/Retail-Orders-Analytics-Project">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Distributed Systems</b> · 1 project</summary>
-<br/>
+### Distributed Systems
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -321,11 +284,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/distributed-kayak-booking-system">GitHub</a></td>
   </tr>
 </table>
-</details>
 
-<details>
-<summary><b>Database Systems & Software Engineering</b> · 2 projects</summary>
-<br/>
+### Database Systems & Software Engineering
 
 <table>
   <tr><th>Project</th><th>Details</th><th>Link</th></tr>
@@ -340,7 +300,6 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
     <td><a href="https://github.com/aneessaheba/CheckMyGrade-OOP-Python">GitHub</a></td>
   </tr>
 </table>
-</details>
 
 ---
 
