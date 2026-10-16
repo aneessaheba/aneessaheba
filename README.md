@@ -56,7 +56,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Projects
 
-### LLM Inference & Efficiency Research
+### Large Language Models (LLM Research & Fine-Tuning)
 
 <table>
   <thead>
@@ -75,12 +75,21 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>Researched and benchmarked KV-cache compression techniques for long-context LLM inference on Llama-3.1-8B. Surveyed and selected methods across three families: token eviction (StreamingLLM, SnapKV, PyramidKV, H2O, AdaKV, KVzip), low-bit quantization (KIVI, TurboQuant) and learned autoencoder compression (KV-CAR). Designed a shared evaluation framework that compares every method at the same measured memory budget (50%, 25% and 12.5% of full KV memory) on LongBench, Needle-in-a-Haystack and RULER. Studied whether combining eviction and quantization makes errors compound. Profiled GPU memory, latency and concurrent-session capacity on an NVIDIA RTX 5090.</td>
       <td><a href="https://github.com/aneessaheba/298a-kv-cache-compression">GitHub</a></td>
     </tr>
+    <tr>
+      <td>
+        <b>Gemma 4 Developer Agent (software-engineering agent)</b><br/>
+        <sub>Python · Gemma 4 · Hugging Face Transformers · PEFT / LoRA · PyTorch · vLLM · ReAct-style Tool Calling · Git / Unified Diffs · pytest · Docker · Kaggle Notebooks · Weights & Biases</sub>
+        <br/><sub><i>Also: Agentic AI</i></sub>
+      </td>
+      <td>Autonomous coding agent built on Google's Gemma 4 for the Kaggle Gemma 4 Developer Agent competition. Given a real GitHub repository and an issue report, the agent explores the codebase, finds the faulty code, reasons about a fix, and generates a patch that passes the repository's validation tests. Evolved from a single-shot prompting baseline into a multi-step, tool-using agent with file search, code navigation, test execution and self-correction loops, plus LoRA fine-tuning on issue-to-patch data. Controlled experiments compared prompting strategies, tool sets and adapter settings, backed by a full experiment log, error analysis and a write-up of approaches that didn't work. <i>(8-person team project, DATA 266 Generative AI, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">GitHub</a></td>
+    </tr>
   </tbody>
 </table>
 
 ---
 
-### Generative AI & Agentic Systems
+### Agentic AI & RAG Applications
 
 <table>
   <thead>
@@ -91,14 +100,6 @@ My expertise spans the full machine learning lifecycle: designing and training n
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>
-        <b>Gemma 4 Developer Agent (software-engineering agent)</b><br/>
-        <sub>Python · Gemma 4 · Hugging Face Transformers · PEFT / LoRA · PyTorch · vLLM · ReAct-style Tool Calling · Git / Unified Diffs · pytest · Docker · Kaggle Notebooks · Weights & Biases</sub>
-      </td>
-      <td>Autonomous coding agent built on Google's Gemma 4 for the Kaggle Gemma 4 Developer Agent competition. Given a real GitHub repository and an issue report, the agent explores the codebase, finds the faulty code, reasons about a fix, and generates a patch that passes the repository's validation tests. Evolved from a single-shot prompting baseline into a multi-step, tool-using agent with file search, code navigation, test execution and self-correction loops, plus LoRA fine-tuning on issue-to-patch data. Controlled experiments compared prompting strategies, tool sets and adapter settings, backed by a full experiment log, error analysis and a write-up of approaches that didn't work. <i>(8-person team project, DATA 266 Generative AI, SJSU)</i></td>
-      <td><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">GitHub</a></td>
-    </tr>
     <tr>
       <td>
         <b>RAG Tax Advisory System for International Students</b><br/>
@@ -152,7 +153,7 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
-### Data Engineering & Analytics
+### Natural Language Processing (NLP)
 
 <table>
   <thead>
@@ -165,50 +166,28 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
-        <b>Stock Data ETL & Data Warehouse Pipeline</b><br/>
-        <sub>PostgreSQL · Docker · ETL · Dimensional Modeling · Apache Airflow · Kafka · TimescaleDB</sub>
+        <b>Character-Level GPT Language Model</b><br/>
+        <sub>Python · PyTorch · CUDA · Hugging Face Datasets · NumPy · Matplotlib</sub>
+        <br/><sub><i>Built from scratch · Also: LLMs</i></sub>
       </td>
-      <td>ETL pipeline for stock market data integrating multiple sources and automating ingestion across 50,567 records with 9 daily Airflow DAGs. Star-schema dimensional data warehouse in TimescaleDB for structured financial analysis. Dockerized workflows for reproducible deployments. 13 analytics visualizations in Tableau and Apache Superset covering YoY trends, volatility analysis, ROE rankings, and correlation heatmaps.</td>
-      <td><a href="https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee">GitHub</a></td>
+      <td>Decoder-only Transformer built from scratch that predicts the next character of a story, trained on the TinyStories dataset. Multi-head self-attention, causal masking, feedforward blocks and positional embeddings are written with plain tensor operations, without <code>nn.Transformer</code>, <code>nn.MultiheadAttention</code> or PyTorch's built-in attention. 4 blocks, width 256, 4 heads, 128-character context, 3.2M parameters. Reached 1.0875 validation bits per character and 76.1% top-1 next-character accuracy. <i>(Team project, DATA 266)</i></td>
+      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task1_llm/anees_saheba">GitHub</a></td>
     </tr>
     <tr>
       <td>
-        <b>Real-Time Flight Delay Prediction Pipeline</b><br/>
-        <sub>Apache Kafka · Apache Spark · PySpark · HDFS · Apache Airflow · Docker</sub>
+        <b>Yelp Review Sentiment Classification</b><br/>
+        <sub>Python · PyTorch · LSTM · Attention · scikit-learn · pandas</sub>
+        <br/><sub><i>Built from scratch</i></sub>
       </td>
-      <td>End-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib (3-fold CrossValidator), achieving AUC-ROC 0.94 and F1 0.90. Real-time streaming inference with Kafka + Spark Structured Streaming at 11,648 events/sec (23× above target). Serialized PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming paths.</td>
-      <td><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>Comprehensive Public Health Analytics Dashboard</b><br/>
-        <sub>Python · SQL · Tableau · Pandas · CDC Socrata API</sub>
-      </td>
-      <td>Multi-source pipeline aggregating CDC PLACES, CDC BRFSS, SAMHSA, and WHO data across 721 US counties. Statistical analysis identifying a significant obesity–diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics for non-technical stakeholders.</td>
-      <td><a href="https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>Spotify Data Analysis</b><br/>
-        <sub>AWS Glue · Snowflake · Power BI</sub>
-      </td>
-      <td>ETL pipeline with Spotify API, AWS Glue, and Snowflake. Interactive Power BI dashboards delivering insights on peak listening hours, weekend patterns, and top artists/tracks.</td>
-      <td><a href="https://github.com/aneessaheba/Spotify-Data-Analysis">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>Retail Orders Analytics Project</b><br/>
-        <sub>Python · Pandas · SQL Server</sub>
-      </td>
-      <td>End-to-end data pipeline processing a retail orders dataset with Python and Pandas, loaded into SQL Server. Advanced analytics identifying top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.</td>
-      <td><a href="https://github.com/aneessaheba/Retail-Orders-Analytics-Project">GitHub</a></td>
+      <td>Three binary sentiment classifiers trained from scratch on 504K Yelp Polarity reviews, with no pretrained embeddings or language models. All three share the same vocabulary, preprocessing and training loop and differ only in how a review becomes a single vector (max pooling baseline, 2-layer LSTM, learned attention pooling), keeping the comparison controlled. Preprocessing keeps negation words so "not good" is never read as "good". Best model (LSTM) reached 95.02% test accuracy and 0.950 macro F1. <i>(Team project, DATA 266)</i></td>
+      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task2_sentiment/anees_saheba">GitHub</a></td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### Deep Learning from Scratch
+### Computer Vision
 
 <table>
   <thead>
@@ -223,40 +202,50 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>
         <b>PatchVision: Vision Transformer from Scratch for Fine-Grained Bird Classification</b><br/>
         <sub>Python · PyTorch · torchvision · NumPy · pandas · scikit-learn · Matplotlib · Seaborn · Jupyter · CUDA</sub>
+        <br/><sub><i>Built from scratch</i></sub>
       </td>
       <td>Vision Transformer built from first principles in PyTorch and trained from scratch, with no pretraining, to classify 200 visually similar bird species in CUB-200-2011 (11,788 images), testing whether a compact ViT can compete with a CNN when data is limited. Implemented patch embedding (224×224 → 196 tokens), a learnable class token, positional embeddings, 6 encoder blocks with multi-head self-attention and a 200-class head. Compared against a CNN baseline under the same split, augmentation, budget and protocol. Controlled ablations over patch size (8×8 vs 16×16), depth (2/4/6 blocks) and regularization, with best configs repeated over 3 seeds (mean ± std). Evaluated with top-1 accuracy, macro F1, per-class precision/recall, parameter count, training time and latency, and interpreted with confusion matrices, per-class error analysis and attention maps.</td>
       <td><a href="https://github.com/aneessaheba/PatchVision-ViT-from-Scratch-for-Bird-Classification">GitHub</a></td>
     </tr>
     <tr>
       <td>
-        <b>Character-Level GPT Language Model</b><br/>
-        <sub>Python · PyTorch · CUDA · Hugging Face Datasets · NumPy · Matplotlib</sub>
-      </td>
-      <td>Decoder-only Transformer built from scratch that predicts the next character of a story, trained on the TinyStories dataset. Multi-head self-attention, causal masking, feedforward blocks and positional embeddings are written with plain tensor operations, without <code>nn.Transformer</code>, <code>nn.MultiheadAttention</code> or PyTorch's built-in attention. 4 blocks, width 256, 4 heads, 128-character context, 3.2M parameters. Reached 1.0875 validation bits per character and 76.1% top-1 next-character accuracy. <i>(Team project, DATA 266)</i></td>
-      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task1_llm/anees_saheba">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>Yelp Review Sentiment Classification</b><br/>
-        <sub>Python · PyTorch · LSTM · Attention · scikit-learn · pandas</sub>
-      </td>
-      <td>Three binary sentiment classifiers trained from scratch on 504K Yelp Polarity reviews, with no pretrained embeddings or language models. All three share the same vocabulary, preprocessing and training loop and differ only in how a review becomes a single vector (max pooling baseline, 2-layer LSTM, learned attention pooling), keeping the comparison controlled. Preprocessing keeps negation words so "not good" is never read as "good". Best model (LSTM) reached 95.02% test accuracy and 0.950 macro F1. <i>(Team project, DATA 266)</i></td>
-      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task2_sentiment/anees_saheba">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
         <b>CycleGAN Photo-to-Monet Style Transfer</b><br/>
         <sub>Python · PyTorch · CycleGAN · PatchGAN · SciPy · Pillow · Kaggle</sub>
+        <br/><sub><i>Built from scratch</i></sub>
       </td>
       <td>CycleGAN trained from scratch to translate between photographs and Monet paintings in both directions using unpaired data. Two ResNet generators (6 residual blocks, 12.2M parameters), two PatchGAN discriminators, least-squares adversarial loss and cycle-consistency loss. Scored with FID and KID, entered in a Kaggle evaluation, and backed by a 30-sample human audit. FID 86.59, KID 0.0075, Kaggle score -52.84. <i>(Team project, DATA 266)</i></td>
       <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task3_gan/anees_saheba">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>EgoHomes: Egocentric Household Activity Dataset</b><br/>
+        <sub>Python · MediaPipe · YOLOv8 · SAM 3 · Whisper · OpenCV · FFmpeg · MLX</sub>
+      </td>
+      <td>Fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrates MediaPipe HandLandmarker (21-point hand skeleton), YOLOv8 pose estimation, SAM 3 for segmentation, and Whisper for narration. JSON frame-level annotation schemas with automated quality control. Targeting open release alongside a VLA research paper.</td>
+      <td><a href="https://github.com/aneessaheba/Egocentric_Homes">GitHub</a> · <a href="https://egocentric-homes.vercel.app/">Live</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Face Mask Detection Using ML</b><br/>
+        <sub>MobileNetV2 · OpenCV · TensorFlow · Python</sub>
+      </td>
+      <td>Real-time face mask detection using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. OpenCV-based face detection with multi-face classification, optimized for edge deployment.</td>
+      <td><a href="https://github.com/aneessaheba/Face-Mask-Detection-Using-ML">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>4DX Movie Technology Using ML</b><br/>
+        <sub>TensorFlow · CNN · Python · OpenCV · Audio Processing</sub>
+      </td>
+      <td>CNN-based system processing synchronized audio-visual streams to detect dynamic movie events in real-time and trigger physical theater effects (water, wind, seat motion) with millisecond-level precision for immersive 4DX experiences.</td>
+      <td>—</td>
     </tr>
   </tbody>
 </table>
 
 ---
 
-### AI for Science
+### Machine Learning & AI for Science
 
 <table>
   <thead>
@@ -275,46 +264,6 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>AI-for-science pipeline that identifies unknown small molecules from tandem mass spectrometry (MS/MS) data, built for the Kaggle Enveda CASMI 2026 competition. Cleans and normalizes spectra, combines evidence from multiple spectra of the same compound, and ranks candidate 2D structures using learned spectrum and molecule embeddings. Compared a cosine-similarity spectral-matching baseline against neural approaches (a spectrum transformer encoder, graph neural network molecule encoders, and a contrastive spectrum-to-structure model), with a learning-to-rank re-ranker combining their scores. Documented experiment log and error analysis. <i>(8-person team project, DATA 266, SJSU)</i></td>
       <td><a href="https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra">GitHub</a></td>
     </tr>
-  </tbody>
-</table>
-
----
-
-### Machine Learning & Computer Vision
-
-<table>
-  <thead>
-    <tr>
-      <th>Project Name</th>
-      <th>Details</th>
-      <th>Repository Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <b>EgoHomes: Egocentric Household Activity Dataset</b><br/>
-        <sub>Python · MediaPipe · YOLOv8 · SAM 3 · Whisper · OpenCV · FFmpeg · MLX</sub>
-      </td>
-      <td>Fully automated multimodal annotation pipeline for egocentric household activity video, producing synchronized hand pose, segmentation masks, depth maps, and narration transcripts per frame for robotics foundation model pretraining. Integrates MediaPipe HandLandmarker (21-point hand skeleton), YOLOv8 pose estimation, SAM 3 for segmentation, and Whisper for narration. JSON frame-level annotation schemas with automated quality control. Targeting open release alongside a VLA research paper.</td>
-      <td><a href="https://github.com/aneessaheba/Egocentric_Homes">GitHub</a> · <a href="https://egocentric-homes.vercel.app/">Live</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>4DX Movie Technology Using ML</b><br/>
-        <sub>TensorFlow · CNN · Python · OpenCV · Audio Processing</sub>
-      </td>
-      <td>CNN-based system processing synchronized audio-visual streams to detect dynamic movie events in real-time and trigger physical theater effects (water, wind, seat motion) with millisecond-level precision for immersive 4DX experiences.</td>
-      <td>—</td>
-    </tr>
-    <tr>
-      <td>
-        <b>Face Mask Detection Using ML</b><br/>
-        <sub>MobileNetV2 · OpenCV · TensorFlow · Python</sub>
-      </td>
-      <td>Real-time face mask detection using transfer learning with MobileNetV2, achieving 95%+ accuracy at 30+ FPS. OpenCV-based face detection with multi-face classification, optimized for edge deployment.</td>
-      <td><a href="https://github.com/aneessaheba/Face-Mask-Detection-Using-ML">GitHub</a></td>
-    </tr>
     <tr>
       <td>
         <b>Credit Card Fraud Detection</b><br/>
@@ -328,7 +277,83 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
-### Software Engineering & Data Structures
+### Big Data & Data Engineering
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Real-Time Flight Delay Prediction Pipeline</b><br/>
+        <sub>Apache Kafka · Apache Spark · PySpark · HDFS · Apache Airflow · Docker</sub>
+        <br/><sub><i>Also: Machine Learning</i></sub>
+      </td>
+      <td>End-to-end big data ML pipeline ingesting 19M+ flight records into HDFS, training GBT and Logistic Regression classifiers with Spark MLlib (3-fold CrossValidator), achieving AUC-ROC 0.94 and F1 0.90. Real-time streaming inference with Kafka + Spark Structured Streaming at 11,648 events/sec (23× above target). Serialized PipelineModels to HDFS eliminating training/serving feature skew across batch and streaming paths.</td>
+      <td><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Stock Data ETL & Data Warehouse Pipeline</b><br/>
+        <sub>PostgreSQL · Docker · ETL · Dimensional Modeling · Apache Airflow · Kafka · TimescaleDB</sub>
+        <br/><sub><i>Also: Data Visualization</i></sub>
+      </td>
+      <td>ETL pipeline for stock market data integrating multiple sources and automating ingestion across 50,567 records with 9 daily Airflow DAGs. Star-schema dimensional data warehouse in TimescaleDB for structured financial analysis. Dockerized workflows for reproducible deployments. 13 analytics visualizations in Tableau and Apache Superset covering YoY trends, volatility analysis, ROE rankings, and correlation heatmaps.</td>
+      <td><a href="https://github.com/aneessaheba/stock-data-etl-warehouse-pipelinee">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Spotify Data Analysis</b><br/>
+        <sub>AWS Glue · Snowflake · Power BI</sub>
+        <br/><sub><i>Also: Data Visualization</i></sub>
+      </td>
+      <td>ETL pipeline with Spotify API, AWS Glue, and Snowflake. Interactive Power BI dashboards delivering insights on peak listening hours, weekend patterns, and top artists/tracks.</td>
+      <td><a href="https://github.com/aneessaheba/Spotify-Data-Analysis">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Data Analytics & Visualization
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Comprehensive Public Health Analytics Dashboard</b><br/>
+        <sub>Python · SQL · Tableau · Pandas · CDC Socrata API</sub>
+      </td>
+      <td>Multi-source pipeline aggregating CDC PLACES, CDC BRFSS, SAMHSA, and WHO data across 721 US counties. Statistical analysis identifying a significant obesity–diabetes correlation (Pearson r=0.79, R²=0.63, p=1.56e-137) across 630 counties. Tableau dashboards with county-level choropleth maps, regional bar charts, and scatter analytics for non-technical stakeholders.</td>
+      <td><a href="https://github.com/aneessaheba/Comprehensive-Public-Health-Analytics-Dashboard">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Retail Orders Analytics Project</b><br/>
+        <sub>Python · Pandas · SQL Server</sub>
+        <br/><sub><i>Also: Database Systems</i></sub>
+      </td>
+      <td>End-to-end data pipeline processing a retail orders dataset with Python and Pandas, loaded into SQL Server. Advanced analytics identifying top-performing products, regional sales patterns, monthly trends, and year-over-year growth metrics.</td>
+      <td><a href="https://github.com/aneessaheba/Retail-Orders-Analytics-Project">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Database Systems & Software Engineering
 
 <table>
   <thead>
@@ -355,6 +380,22 @@ My expertise spans the full machine learning lifecycle: designing and training n
       <td>Object-oriented stock tracking application with console and GUI interfaces. Embedded SQLite database for saving and retrieving stock data, historical price tracking from web APIs and CSV imports, profit/loss report generation, and interactive chart visualization.</td>
       <td><a href="https://github.com/aneessaheba/StockMarketAnalysis">GitHub</a></td>
     </tr>
+  </tbody>
+</table>
+
+---
+
+### Distributed Systems
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td>
         <b>Distributed Kayak Travel Booking System</b><br/>
