@@ -14,7 +14,6 @@
 
 <p align="center">
   <a href="#about-me">About</a> ·
-  <a href="#featured-projects">Featured Projects</a> ·
   <a href="#all-projects">All Projects</a> ·
   <a href="#experience">Experience</a> ·
   <a href="#technical-skills">Skills</a> ·
@@ -32,57 +31,6 @@ My recent work spans the LLM stack: making long-context inference cheaper throug
 I also build the systems around the models, including RAG pipelines, Kafka and Spark streaming pipelines, data warehouses and microservices. Before grad school I spent a year as a Software Development Engineer at **HP**, building customer-support chatbots.
 
 **Open to:** ML / GenAI Engineer roles starting 2027
-
----
-
-## Featured Projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/298a-kv-cache-compression">KV-Cache Compression for Long-Context LLMs</a> <img src="https://img.shields.io/badge/in_progress-FFA500?style=flat-square" alt="In progress" /></h4>
-      Benchmarked 9 KV-cache compression methods (token eviction, low-bit quantization, learned autoencoders) on Llama-3.1-8B at matched memory budgets of 50%, 25% and 12.5%, on LongBench, RULER and Needle-in-a-Haystack.
-      <br/><br/>
-      <sub>PyTorch · HF Transformers · NVIDIA kvpress · CUDA · RTX 5090</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">Gemma 4 Developer Agent</a> <img src="https://img.shields.io/badge/in_progress-FFA500?style=flat-square" alt="In progress" /></h4>
-      Autonomous coding agent that reads a GitHub issue, explores the repo, finds the faulty code and writes a patch that passes the tests. Tool use, self-correction loops and LoRA fine-tuning on issue-to-patch data.
-      <br/><br/>
-      <sub>Gemma 4 · PEFT / LoRA · vLLM · pytest · W&B</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/RAG-Tax-Advisory-System-for-Intl-Students">RAG Tax Advisor for International Students</a> · <a href="https://rag-tax-advisory-system-for-students.onrender.com/">Live demo</a></h4>
-      Answers U.S. tax questions grounded in 41 IRS documents. Hybrid retrieval (vector + BM25 with Reciprocal Rank Fusion) raised hit rate from <b>70% to 100%</b>; LLM-as-a-Judge score <b>0.770</b>.
-      <br/><br/>
-      <sub>LangChain · ChromaDB · Elasticsearch · Gemini</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/hurricane-food-relief-ml">Hurricane Food Relief Priority</a> · IEEE GHTC 2026</h4>
-      Predicts ZIP-level hurricane damage before landfall and ranks food-insecure communities for relief. <b>ROC-AUC 0.78</b> and <b>82% Severe-class recall</b> on 5 unseen storms, with a fairness audit and SHAP dashboard.
-      <br/><br/>
-      <sub>XGBoost · Optuna · SHAP · Fairlearn · GeoPandas · Streamlit</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl">Pokémon TCG Battle Agent</a> <img src="https://img.shields.io/badge/in_progress-FFA500?style=flat-square" alt="In progress" /></h4>
-      Game-playing agent that plans under hidden information, progressing from heuristics to Monte Carlo Tree Search to a PPO policy trained through self-play.
-      <br/><br/>
-      <sub>PyTorch · Stable-Baselines3 · Gymnasium · MCTS</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/aneessaheba/realtime-flight-delay-predictor-bigdata">Real-Time Flight Delay Prediction</a></h4>
-      Big data ML pipeline over 19M+ flight records. Spark MLlib classifiers reach <b>AUC-ROC 0.94</b>; streaming inference runs at <b>11,648 events/sec</b> (23× the target).
-      <br/><br/>
-      <sub>Kafka · Spark · HDFS · Airflow · Docker</sub>
-    </td>
-  </tr>
-</table>
-
-**Also in progress:** [PatchVision](https://github.com/aneessaheba/PatchVision-ViT-from-Scratch-for-Bird-Classification) (Vision Transformer from scratch) · [Enveda CASMI 2026](https://github.com/aneessaheba/ai-molecular-structure-identification-mass-spectra) (molecule identification from mass spectra)
 
 ---
 
