@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Anees Saheba Guddi</h1>
+<h1 align="center">Hi, I'm Anees</h1>
 <h3 align="center">LLMs & Agentic AI · Deep Learning · Data Engineering</h3>
 <p align="center">MS in Applied Data Intelligence @ San José State University · San Jose, CA</p>
 
