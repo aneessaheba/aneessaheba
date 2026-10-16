@@ -325,6 +325,15 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
+        <b>Hurricane Food Relief Priority: Predicting Food Aid Needs Before Landfall</b><br/>
+        <sub>Python · pandas · GeoPandas · scikit-learn · XGBoost · Optuna · SHAP · Fairlearn · Streamlit · Folium · Matplotlib · pytest</sub>
+        <br/><sub><i>Also: Explainable AI, Fairness · Domain: Disaster Response</i></sub>
+      </td>
+      <td>Machine learning system that predicts how badly each ZIP code will be damaged before a hurricane makes landfall, so relief teams can send food to the most vulnerable communities first. Combined 8 public data sources (FEMA, Census, CDC, USDA and NOAA) into a dataset covering 14 Atlantic hurricanes from 2016 to 2024. An XGBoost model reached a ROC-AUC of 0.78 on 5 unseen storms and caught 82% of the most severely damaged areas. Model predictions are combined with a food-access score into a Food Relief Priority Index, a fairness audit confirms the model works well for high-vulnerability communities, and a Streamlit dashboard provides maps and SHAP explanations. Written up as a paper for IEEE GHTC 2026.</td>
+      <td><a href="https://github.com/aneessaheba/hurricane-food-relief-ml">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
         <b>Credit Card Fraud Detection</b><br/>
         <sub>PCA · Random Forest · Isolation Forest · Python · scikit-learn</sub>
         <br/><sub><i>Also: Anomaly Detection · Domain: Finance</i></sub>
