@@ -221,6 +221,14 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
+        <b>PatchVision: Vision Transformer from Scratch for Fine-Grained Bird Classification</b><br/>
+        <sub>Python · PyTorch · torchvision · NumPy · pandas · scikit-learn · Matplotlib · Seaborn · Jupyter · CUDA</sub>
+      </td>
+      <td>Vision Transformer built from first principles in PyTorch and trained from scratch, with no pretraining, to classify 200 visually similar bird species in CUB-200-2011 (11,788 images), testing whether a compact ViT can compete with a CNN when data is limited. Implemented patch embedding (224×224 → 196 tokens), a learnable class token, positional embeddings, 6 encoder blocks with multi-head self-attention and a 200-class head. Compared against a CNN baseline under the same split, augmentation, budget and protocol. Controlled ablations over patch size (8×8 vs 16×16), depth (2/4/6 blocks) and regularization, with best configs repeated over 3 seeds (mean ± std). Evaluated with top-1 accuracy, macro F1, per-class precision/recall, parameter count, training time and latency, and interpreted with confusion matrices, per-class error analysis and attention maps.</td>
+      <td><a href="https://github.com/aneessaheba/PatchVision-ViT-from-Scratch-for-Bird-Classification">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
         <b>Character-Level GPT Language Model</b><br/>
         <sub>Python · PyTorch · CUDA · Hugging Face Datasets · NumPy · Matplotlib</sub>
       </td>
@@ -242,14 +250,6 @@ My expertise spans the full machine learning lifecycle: designing and training n
       </td>
       <td>CycleGAN trained from scratch to translate between photographs and Monet paintings in both directions using unpaired data. Two ResNet generators (6 residual blocks, 12.2M parameters), two PatchGAN discriminators, least-squares adversarial loss and cycle-consistency loss. Scored with FID and KID, entered in a Kaggle evaluation, and backed by a 30-sample human audit. FID 86.59, KID 0.0075, Kaggle score -52.84. <i>(Team project, DATA 266)</i></td>
       <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task3_gan/anees_saheba">GitHub</a></td>
-    </tr>
-    <tr>
-      <td>
-        <b>PatchVision: Vision Transformer from Scratch for Fine-Grained Bird Classification</b><br/>
-        <sub>Python · PyTorch · torchvision · NumPy · pandas · scikit-learn · Matplotlib · Seaborn · Jupyter · CUDA</sub>
-      </td>
-      <td>Vision Transformer built from first principles in PyTorch and trained from scratch, with no pretraining, to classify 200 visually similar bird species in CUB-200-2011 (11,788 images), testing whether a compact ViT can compete with a CNN when data is limited. Implemented patch embedding (224×224 → 196 tokens), a learnable class token, positional embeddings, 6 encoder blocks with multi-head self-attention and a 200-class head. Compared against a CNN baseline under the same split, augmentation, budget and protocol. Controlled ablations over patch size (8×8 vs 16×16), depth (2/4/6 blocks) and regularization, with best configs repeated over 3 seeds (mean ± std). Evaluated with top-1 accuracy, macro F1, per-class precision/recall, parameter count, training time and latency, and interpreted with confusion matrices, per-class error analysis and attention maps.</td>
-      <td><a href="https://github.com/aneessaheba/PatchVision-ViT-from-Scratch-for-Bird-Classification">GitHub</a></td>
     </tr>
   </tbody>
 </table>
