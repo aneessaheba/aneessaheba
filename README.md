@@ -287,6 +287,10 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 ## GitHub & LeetCode
 
 <p align="center">
+  <img src="https://streak-stats.demolab.com?user=aneessaheba&hide_border=true&background=00000000" alt="GitHub Streak" />
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
 </p>
