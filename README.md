@@ -102,6 +102,15 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
+        <b>Pokémon TCG AI Battle Challenge (game-playing agent)</b><br/>
+        <sub>Python · PyTorch · Kaggle PTCG Simulator SDK · Gymnasium · PPO / Self-Play RL (Stable-Baselines3) · Monte Carlo Tree Search · NumPy · pandas · Matplotlib · Kaggle Agents Ladder</sub>
+        <br/><sub><i>Also: Reinforcement Learning</i></sub>
+      </td>
+      <td>Autonomous agent that plays competitive Pokémon Trading Card Game matches, built for the Kaggle PTCG AI Battle Challenge. Decides under hidden information (unknown opponent hands and decks), plans several turns ahead and adapts to different opponent strategies. Progressed from a rule-based heuristic baseline to Monte Carlo Tree Search with determinization, then to a PPO-trained policy/value network trained through self-play in the official simulator. Strategies compared through local round-robin tournaments and the Kaggle ladder, with full experiment tracking and analysis of failed strategies. <i>(8-person team project, DATA 266, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/pokemon-tcg-ai-battle-agent-rl">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
         <b>RAG Tax Advisory System for International Students</b><br/>
         <sub>Python · LangChain · ChromaDB · Elasticsearch · BM25 · PyMuPDF · sentence-transformers · LLaMA · Google Gemini</sub>
       </td>
