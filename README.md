@@ -56,6 +56,30 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ## Projects
 
+### LLM Inference & Efficiency Research
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>KV-Cache Compression for Long-Context LLM Inference</b><br/>
+        <sub>Python · PyTorch · Hugging Face Transformers · NVIDIA kvpress · CUDA · Llama-3.1-8B / Llama-3.2-3B · LongBench, Needle-in-a-Haystack, RULER · NVIDIA RTX 5090 / 4090</sub>
+      </td>
+      <td>A controlled study of KV-cache compression methods for long-context LLM inference on Llama-3.1-8B. Implements eviction methods (StreamingLLM, SnapKV, PyramidKV, H2O, AdaKV, KVzip), quantization methods (KIVI, TurboQuant) and learned autoencoder compression (KV-CAR) inside one shared evaluation harness. Each method is compared at the same measured memory budget: 50%, 25% and 12.5% of full KV memory. Also tests whether combining eviction and quantization makes errors compound, measures memory, latency and concurrent sessions on a single RTX 5090, and catalogues the inputs where each method fails. <i>(In progress, SJSU MS Data Analytics capstone, 2026–27)</i></td>
+      <td><a href="https://github.com/aneessaheba/298a-kv-cache-compression">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ### Generative AI & Agentic Systems
 
 <table>
