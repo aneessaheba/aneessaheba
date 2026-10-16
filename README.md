@@ -200,6 +200,46 @@ My expertise spans the full machine learning lifecycle: designing and training n
 
 ---
 
+### Deep Learning from Scratch
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Name</th>
+      <th>Details</th>
+      <th>Repository Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>Character-Level GPT Language Model</b><br/>
+        <sub>Python · PyTorch · CUDA · Hugging Face Datasets · NumPy · Matplotlib</sub>
+      </td>
+      <td>Decoder-only Transformer built from scratch that predicts the next character of a story, trained on the TinyStories dataset. Multi-head self-attention, causal masking, feedforward blocks and positional embeddings are written with plain tensor operations, without <code>nn.Transformer</code>, <code>nn.MultiheadAttention</code> or PyTorch's built-in attention. 4 blocks, width 256, 4 heads, 128-character context, 3.2M parameters. Reached 1.0875 validation bits per character and 76.1% top-1 next-character accuracy. <i>(Team project, DATA 266)</i></td>
+      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task1_llm/anees_saheba">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>Yelp Review Sentiment Classification</b><br/>
+        <sub>Python · PyTorch · LSTM · Attention · scikit-learn · pandas</sub>
+      </td>
+      <td>Three binary sentiment classifiers trained from scratch on 504K Yelp Polarity reviews, with no pretrained embeddings or language models. All three share the same vocabulary, preprocessing and training loop and differ only in how a review becomes a single vector (max pooling baseline, 2-layer LSTM, learned attention pooling), keeping the comparison controlled. Preprocessing keeps negation words so "not good" is never read as "good". Best model (LSTM) reached 95.02% test accuracy and 0.950 macro F1. <i>(Team project, DATA 266)</i></td>
+      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task2_sentiment/anees_saheba">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
+        <b>CycleGAN Photo-to-Monet Style Transfer</b><br/>
+        <sub>Python · PyTorch · CycleGAN · PatchGAN · SciPy · Pillow · Kaggle</sub>
+      </td>
+      <td>CycleGAN trained from scratch to translate between photographs and Monet paintings in both directions using unpaired data. Two ResNet generators (6 residual blocks, 12.2M parameters), two PatchGAN discriminators, least-squares adversarial loss and cycle-consistency loss. Scored with FID and KID, entered in a Kaggle evaluation, and backed by a 30-sample human audit. FID 86.59, KID 0.0075, Kaggle score -52.84. <i>(Team project, DATA 266)</i></td>
+      <td><a href="https://github.com/aneessaheba/DATA-266-Lab-1/tree/main/task3_gan/anees_saheba">GitHub</a></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ### Machine Learning & Computer Vision
 
 <table>
