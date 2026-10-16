@@ -93,6 +93,14 @@ My expertise spans the full machine learning lifecycle: designing and training n
   <tbody>
     <tr>
       <td>
+        <b>PatchPilot: Autonomous Software Engineering Agent Built on Gemma 4</b><br/>
+        <sub>Python · Gemma 4 · Hugging Face Transformers · PEFT / LoRA · PyTorch · vLLM · ReAct-style Tool Calling · Git / Unified Diffs · pytest · Docker · Kaggle Notebooks · Weights & Biases</sub>
+      </td>
+      <td>Autonomous coding agent built on Google's Gemma 4 for the Kaggle Gemma 4 Developer Agent competition. Given a real GitHub repository and an issue report, the agent explores the codebase, finds the faulty code, reasons about a fix, and generates a patch that passes the repository's validation tests. Evolved from a single-shot prompting baseline into a multi-step, tool-using agent with file search, code navigation, test execution and self-correction loops, plus LoRA fine-tuning on issue-to-patch data. Controlled experiments compared prompting strategies, tool sets and adapter settings, backed by a full experiment log, error analysis and a write-up of approaches that didn't work. <i>(8-person team project, DATA 266 Generative AI, SJSU)</i></td>
+      <td><a href="https://github.com/aneessaheba/autonomous-software-engineering-agent-gemma4">GitHub</a></td>
+    </tr>
+    <tr>
+      <td>
         <b>RAG Tax Advisory System for International Students</b><br/>
         <sub>Python · LangChain · ChromaDB · Elasticsearch · BM25 · PyMuPDF · sentence-transformers · LLaMA · Google Gemini</sub>
       </td>
