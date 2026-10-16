@@ -1,26 +1,26 @@
-<h1 align="center">Hi, I'm Anees</h1>
-<h3 align="center">LLMs & Agentic AI · Deep Learning · Data Engineering</h3>
-<p align="center">MS in Applied Data Intelligence @ San José State University · San Jose, CA</p>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" /><img alt="Hi, I'm Anees. LLMs &amp; Agentic AI, Deep Learning, Data Engineering. MS in Applied Data Intelligence at San José State University, San Jose, CA. Open to ML / GenAI Engineer roles starting 2027." src="assets/hero-light.svg" width="100%" /></picture>
 
 <p align="center">
-  <a href="mailto:aneessaheba.guddi@sjsu.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://aneessaheba.github.io"><img src="https://img.shields.io/badge/Portfolio-%2312100E.svg?style=for-the-badge&logo=Firefox&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.youtube.com/@BytAByte"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" /></a>
-  <a href="https://medium.com/@aneessaheba.guddi"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://leetcode.com/u/aneessaheba04/"><img src="https://img.shields.io/badge/LeetCode-FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes"><img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" alt="Tableau" /></a>
+  <a href="mailto:aneessaheba.guddi@sjsu.edu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg" /><img alt="Email" src="assets/btn-email-light.svg" width="95" /></picture></a>
+  <a href="https://www.linkedin.com/in/anees-saheba-guddi-215a97248/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg" /><img alt="LinkedIn" src="assets/btn-linkedin-light.svg" width="118" /></picture></a>
+  <a href="https://aneessaheba.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg" /><img alt="Portfolio" src="assets/btn-portfolio-light.svg" width="121" /></picture></a>
+  <a href="https://medium.com/@aneessaheba.guddi"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-medium-dark.svg" /><img alt="Medium" src="assets/btn-medium-light.svg" width="108" /></picture></a>
+  <a href="https://www.youtube.com/@BytAByte"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg" /><img alt="YouTube" src="assets/btn-youtube-light.svg" width="114" /></picture></a>
+  <a href="https://leetcode.com/u/aneessaheba04/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-leetcode-dark.svg" /><img alt="LeetCode" src="assets/btn-leetcode-light.svg" width="121" /></picture></a>
+  <a href="https://public.tableau.com/app/profile/anees.saheba.guddi/vizzes"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-tableau-dark.svg" /><img alt="Tableau" src="assets/btn-tableau-light.svg" width="109" /></picture></a>
 </p>
 
-<p align="center">
+<p align="center"><sub>
   <a href="#about-me">About</a> ·
-  <a href="#all-projects">All Projects</a> ·
+  <a href="#projects">Projects</a> ·
   <a href="#experience">Experience</a> ·
   <a href="#technical-skills">Skills</a> ·
-  <a href="#education">Education</a>
-</p>
+  <a href="#education">Education</a> ·
+  <a href="#github-and-leetcode">Activity</a>
+</sub></p>
 
-## About Me
+<a id="about-me"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-about-dark.svg" /><img alt="01 About Me" src="assets/h-about-light.svg" width="100%" /></picture>
 
 I'm an MS student in Applied Data Intelligence at **San José State University** (graduating May 2027), focused on **large language models, agentic AI and deep learning**.
 
@@ -30,7 +30,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 
 **Open to:** ML / GenAI Engineer roles starting 2027
 
-## All Projects
+<a id="projects"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-projects-dark.svg" /><img alt="02 Projects" src="assets/h-projects-light.svg" width="100%" /></picture>
 
 ### Large Language Models (LLMs)
 
@@ -245,7 +246,8 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
   </tr>
 </table>
 
-## Experience
+<a id="experience"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-experience-dark.svg" /><img alt="03 Experience" src="assets/h-experience-light.svg" width="100%" /></picture>
 
 **Software Development Engineer** · Hewlett Packard (HP), Bengaluru · *Jul 2023 – Aug 2024*
 - Built rule-based customer-support chatbots for HP printers, mapping user queries to intents using data from support transcripts and troubleshooting documents
@@ -256,47 +258,37 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 - Built RESTful APIs with Node.js, Express and Sequelize, plus Kafka producers and consumers for real-time event processing
 - Built a cross-platform React + Ionic dashboard for real-time monitoring
 
-## Technical Skills
+<a id="technical-skills"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-skills-dark.svg" /><img alt="04 Technical Skills" src="assets/h-skills-light.svg" width="100%" /></picture>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nodejs,kafka,postgres,mysql,mongodb,redis,docker,aws,gcp,kubernetes,git&perline=9" alt="Skill icons" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nodejs,kafka,postgres,mysql,mongodb,redis,docker,aws,gcp,kubernetes,git&perline=9&theme=dark" /><img alt="Skill icons" src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,fastapi,react,nodejs,kafka,postgres,mysql,mongodb,redis,docker,aws,gcp,kubernetes,git&perline=9&theme=light" /></picture>
 </p>
 
-| Area | Skills |
-|---|---|
-| **LLMs & Generative AI** | Hugging Face Transformers · PEFT / LoRA · Fine-tuning · vLLM · LLM inference optimization · Llama · Gemma · Gemini · OpenAI · Ollama · Prompt engineering |
-| **Agentic AI & RAG** | LangChain · LangGraph · ReAct · Tool calling · Multi-agent systems · RAG · Hybrid search (BM25 + vector) · ChromaDB · Elasticsearch · sentence-transformers · LLM-as-a-Judge |
-| **Deep Learning** | PyTorch · TensorFlow · Keras · CUDA · Transformers · Vision Transformers · CNNs · LSTMs / RNNs · GANs · GNNs (PyTorch Geometric) · Contrastive learning · Transfer learning |
-| **Computer Vision** | OpenCV · YOLOv8 · MediaPipe · Segment Anything (SAM) · Whisper |
-| **Reinforcement Learning** | PPO · Self-play · Monte Carlo Tree Search · Stable-Baselines3 · Gymnasium |
-| **Machine Learning** | scikit-learn · XGBoost · LightGBM · Optuna · Learning-to-rank · Anomaly detection · SMOTE · Feature engineering · SHAP · Fairlearn |
-| **Data Engineering** | Kafka · Spark / PySpark · Spark MLlib · Hadoop / HDFS · Airflow · ETL · Dimensional modeling · Snowflake · AWS Glue |
-| **Databases** | PostgreSQL · TimescaleDB · MySQL · SQL Server · MongoDB · Redis · SQLite · DuckDB |
-| **Cloud & DevOps** | Docker · AWS (S3, EC2, ECS, SageMaker) · GCP · Kubernetes · Terraform |
-| **Analysis & Visualization** | pandas · NumPy · GeoPandas · Matplotlib · Seaborn · Plotly · Folium · Tableau · Power BI · Apache Superset |
-| **Languages & Frameworks** | Python · SQL · JavaScript · TypeScript · Go · FastAPI · Streamlit · Flask · Node.js · Express · React · HTML / CSS |
-| **Tools** | Git · GitHub · Weights & Biases · pytest · Jupyter · Colab · Kaggle · LaTeX · VS Code · Postman · Jira |
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg" /><img alt="Technical skills: LLMs and generative AI, agentic AI and RAG, deep learning, computer vision, reinforcement learning, machine learning, data engineering, databases, cloud and DevOps, analysis and visualization, languages and frameworks, tools." src="assets/skills-light.svg" width="100%" /></picture>
 
-## Education
+<a id="education"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-education-dark.svg" /><img alt="05 Education" src="assets/h-education-light.svg" width="100%" /></picture>
 
 | | |
 |---|---|
 | **San José State University** · San Jose, CA<br/>MS, Applied Data Intelligence · *Jan 2025 – May 2027* · GPA 3.5/4.0 | Gen AI LLMs · Agentic AI · Machine Learning · Deep Learning · Big Data Algorithms · Distributed Systems · Scalable Data Platforms |
 | **Visvesvaraya Technological University** · Karnataka, India<br/>BE, Information Science and Engineering · *Aug 2019 – Jun 2023* · GPA 7.9/10.0 | Data Structures and Algorithms · Database Systems · Software Engineering |
 
-## GitHub & LeetCode
+<a id="github-and-leetcode"></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-stats-dark.svg" /><img alt="06 GitHub &amp; LeetCode" src="assets/h-stats-light.svg" width="100%" /></picture>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=aneessaheba&hide_border=true&background=00000000" alt="GitHub Streak" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=aneessaheba&hide_border=true&background=00000000&theme=dark&ring=a99cff&fire=a99cff&currStreakLabel=a99cff" /><img src="https://streak-stats.demolab.com?user=aneessaheba&hide_border=true&background=00000000&ring=5b4bdb&fire=5b4bdb&currStreakLabel=5b4bdb" alt="GitHub Streak" /></picture>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&hide_border=true&bg_color=00000000&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&hide_border=true&bg_color=00000000&langs_count=8" alt="Top Languages" height="165"/>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&hide_border=true&bg_color=00000000&title_color=a99cff&icon_color=a99cff&ring_color=a99cff&text_color=9198a1&count_private=true&include_all_commits=true" /><img src="https://github-readme-stats.vercel.app/api?username=aneessaheba&show_icons=true&hide_border=true&bg_color=00000000&title_color=5b4bdb&icon_color=5b4bdb&ring_color=5b4bdb&text_color=59636e&count_private=true&include_all_commits=true" alt="GitHub Stats" height="165" /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&hide_border=true&bg_color=00000000&title_color=a99cff&text_color=9198a1&langs_count=8" /><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aneessaheba&layout=compact&hide_border=true&bg_color=00000000&title_color=5b4bdb&text_color=59636e&langs_count=8" alt="Top Languages" height="165" /></picture>
 </p>
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=light&font=Ubuntu&border=0" alt="LeetCode Stats" />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aneessaheba04?theme=dark&font=Ubuntu&border=0" /><img src="https://leetcard.jacoblin.cool/aneessaheba04?theme=light&font=Ubuntu&border=0" alt="LeetCode Stats" /></picture>
 </p>
 
-<p align="center"><sub>Thanks for stopping by. Feel free to reach out through any of the links at the top.</sub></p>
+<a href="mailto:aneessaheba.guddi@sjsu.edu"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg" /><img alt="Thanks for stopping by. Let's build something. Open to ML / GenAI Engineer roles starting 2027. Email aneessaheba.guddi@sjsu.edu." src="assets/footer-light.svg" width="100%" /></picture></a>

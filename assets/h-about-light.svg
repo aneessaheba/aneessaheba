@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="64" viewBox="0 0 840 64" role="img" aria-labelledby="t">
+<title id="t">01 About Me</title>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<text class="m" x="2" y="40" font-size="13" fill="#5b4bdb">01</text>
+<text x="44" y="41" font-size="22" font-weight="700" fill="#1f2328" letter-spacing="-0.2">About Me</text>
+<line x1="167" y1="35.5" x2="776" y2="35.5" stroke="#d0d7de"/>
+<text class="m" x="838" y="39.5" font-size="11.5" fill="#8c959f" text-anchor="end">whoami</text>
+</svg>
