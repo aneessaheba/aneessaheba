@@ -41,7 +41,7 @@ I also build the systems around the models, including RAG pipelines, Kafka and S
 
 I write about Generative AI and data engineering on [Medium](https://medium.com/@aneessaheba.guddi) and [YouTube](https://www.youtube.com/@BytAByte).
 
-📫 **Open to:** ML / GenAI Engineer roles starting 2027  ·  San Jose, CA
+**Open to:** ML / GenAI Engineer roles starting 2027  ·  San Jose, CA
 
 ---
 
